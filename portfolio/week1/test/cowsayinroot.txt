@@ -1,0 +1,1 @@
+ln -s /usr/games/cowsay /usr/bin/cowsay

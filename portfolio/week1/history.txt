@@ -1,0 +1,1000 @@
+  161  ssh 192.168.5.145
+  162  ssh phiggs@192.168.5.145 -p 1743
+  163  nmap -p 192.168.5.145
+  164  nmap 192.168.5.145 -p 1-2000
+  165  ifconfig
+  166  exit
+  167  ifconfig
+  168  sudo -l
+  169  ifconfig
+  170  ping 1.1.1.1
+  171  apt install update
+  172  apt-get install update
+  173  apt-get update
+  174  ifconfig
+  175  apt-get update
+  176  apt-get upgrade
+  177  chroot
+  178  chroot --help
+  179  sudo -s
+  180  ls
+  181  dir
+  182  ls
+  183  cd desktop
+  184  cd ./desktop
+  185  cd ./Desktop
+  186  dir
+  187  ls
+  188  cd ..
+  189  dir
+  190  pwd
+  191  ls -a
+  192  cd Videos
+  193  cd //
+  194  dir
+  195  ls
+  196  ls -a
+  197  cd ..
+  198  dir
+  199  ls
+  200  cd //
+  201  cd /
+  202  ls
+  203  cd usr
+  204  dir
+  205  ls
+  206  cd local
+  207  dir
+  208  ls
+  209  root
+  210  ls
+  211  ls -a
+  212  cd desktop
+  213  cd Desktop
+  214  mkdir dir1
+  215  cd dir1
+  216  dir
+  217  ls
+  218  cd ..
+  219  cd //
+  220  cd /
+  221  cd .
+  222  ls
+  223  cd
+  224  ls
+  225  cd Desktop
+  226  cd dir1
+  227  ls
+  228  ls -a
+  229  cd ..
+  230  mkfile
+  231  makefile
+  232  touch file1.txt
+  233  ls
+  234  gedit file1.txt
+  235  exit
+  236  cd Desktop
+  237  cat file1.txt
+  238  ls
+  239  cat file1.txt "Hello World"
+  240  cat file1.txt Hello World
+  241  cat file1.txt
+  242  ls
+  243  cat file1.txt
+  244  cd dir1
+  245  ls
+  246  mv ~/Desktop/fil1.txt ~/Desktop/dir1/
+  247  mv ~/Desktop/file1.txt ~/Desktop/dir1/
+  248  ls -a
+  249  dir
+  250  ls ..
+  251  ls .
+  252  clear
+  253  cls
+  254  clear
+  255  cd ~
+  256  dir
+  257  ls -a
+  258  cd .mozilla
+  259  dir
+  260  ls -a
+  261  ls 
+  262  cd ..
+  263  cd .mozilla
+  264  cd ../Desktop
+  265  dir
+  266  ls -a
+  267  ls -help
+  268  tree
+  269  sudo apt install tree
+  270  tree
+  271  cat file1.txt
+  272  cd dir1
+  273  cat file1.txt
+  274  gedit file1.txt
+  275  cat file1.txt
+  276  sudo apt search password
+  277  sudo apt install ophcrack
+  278  sudo apt install otp
+  279  otp
+  280  sudo apt install cowsay
+  281  cowsay
+  282  cowsay hello
+  283  cowsay ffs
+  284  figlet
+  285  sudo apt install figlet
+  286  figlet for fuck sake | cowsay -n | cowsay -n
+  287  figlet for fuck sake | cowsay -n | cowsay -n \ cowsay -n | cowsay -n | cowsay -n 
+  288  cowsay hello | figlet
+  289  cd..
+  290  cd ..
+  291  mouse
+  292  morse
+  293  bsdgames
+  294  hello
+  295  whats going on then hey
+  296  echo ffs
+  297  echo -h
+  298  echo -help
+  299  echo --help
+  300  echo@ help
+  301  cd ~
+  302  ls -a
+  303  ls
+  304  cd Desktop
+  305  ls
+  306  cd ..
+  307  mkdir student/scripts/assignment
+  308  mkdir student
+  309  cd student
+  310  mkdir scripts
+  311  cd scripts
+  312  mkdir portfolio
+  313  cd portfolio
+  314  mkdir week1
+  315  dir
+  316  ls
+  317  cd ~/student/scripts/
+  318  mkdir assignment
+  319  ls
+  320  cd assignment
+  321  tree
+  322  cd ..
+  323  tree
+  324  cd student
+  325  tree
+  326  cd ..
+  327  tree
+  328  dir
+  329  cd student
+  330  dir
+  331  rd scripts
+  332  rmdir
+  333  rmdir scripts
+  334  cd scripts
+  335  dir
+  336  rmdir assignment
+  337  rmdir portfolio
+  338  dir
+  339  cd portfolio
+  340  dir
+  341  rmdir week1
+  342  dir
+  343  cd ..
+  344  dir
+  345  rmdir portfolio
+  346  dir
+  347  ls
+  348  cd ..
+  349  dir
+  350  rmdir scripts
+  351  dir
+  352  ls
+  353  ls -l
+  354  mkdir -p scripts/{portfolio,assignment}
+  355  dir
+  356  cd scripts
+  357  dir
+  358  cd portfolio 
+  359  mkdir week1
+  360  dir
+  361  cd ~
+  362  dir
+  363  tree
+  364  tree -help
+  365  tree -P
+  366  tree -o
+  367  tree -o file1.txt
+  368  tree
+  369  ls
+  370  cat file1.txt
+  371  cat file1.txt | cowsay
+  372  cowsay Hello ZOZIE
+  373  Hello Zozie
+  374  cowsay Hello Zozie
+  375  cowsay I'm going to fart
+  376  haha
+  377  funny as
+  378  whatever
+  379  cowsay Im going to fart
+  380  cowsay Im pooping
+  381  exit cowsay
+  382  exit
+  383  apt install update
+  384  apt install upgrade
+  385  exit
+  386  cd student
+  387  dir
+  388  cd scripts
+  389  dir
+  390  cd portfolio
+  391  dir
+  392  cd week1
+  393  dir
+  394  code .
+  395  dir
+  396  ls
+  397  ls -l
+  398  chmod +x first.sh
+  399  ./first.sh
+  400  cowsay hi
+  401  ./first.sh | cowsay
+  402  cowsay moo moo poo poo poo
+  403  cowasay Hello Zozie
+  404  cowsay Hello Zozie
+  405  cowsay Im going to fart now
+  406  cowsay Zozie your farts are smelly
+  407  dir
+  408  cd student
+  409  cd ..
+  410  cd snap
+  411  dir
+  412  cd code
+  413  dir
+  414  cd 31
+  415  dir
+  416  ls
+  417  ls -a
+  418  ls -l
+  419  cd ..
+  420  dir
+  421  cd ~
+  422  dir
+  423  ls -l
+  424  ls -a-l
+  425  ls -al
+  426  chmod +x ~/scripts/portfolio/week1/first.sh
+  427  cd scripts
+  428  dir
+  429  cd student
+  430  cd scripts
+  431  dir
+  432  cd portfolio
+  433  dir
+  434  cd week1
+  435  dir
+  436  chmod first.sh
+  437  chmod --help
+  438  dir
+  439  ls -a
+  440  ls -;
+  441  ls -l
+  442  chmod +x first.sh
+  443  chmod -x first.sh
+  444  ./first.sh
+  445  chmod +x first.sh
+  446  ./first.sh
+  447  ./first.sh | cowsay
+  448  firefox 
+  449  code first.sh
+  450  ./first.sh
+  451  history
+  452  ./first.sh
+  453  echo $?
+  454  ./first.sh
+  455  echo $?
+  456  ./first.sh
+  457  echo $?
+  458  dir
+  459  ./second.sh
+  460  chmod +x second.sh
+  461  ./second.sh
+  462  ./second.sh $ ./second.sh Phil
+  463  $ ./second.sh Phil
+  464  ./second.sh
+  465  ./second.sh $1 phil
+  466  ./second.sh $1 Phil
+  467  ./second.sh $1 fartybottom
+  468  touch euex.sh
+  469  chmod +x euex.sh
+  470  code euex.sh
+  471  sudo apt install git
+  472  git
+  473  git_init
+  474  git
+  475  git init
+  476  dir
+  477  rmdir /.git/
+  478  dir
+  479  git branch
+  480  sudo git branch
+  481  exit
+  482  whoami
+  483  exit
+  484  cd sf_vmshared
+  485  dir
+  486  ls
+  487  cd ..
+  488  dir
+  489  cd ..
+  490  exit
+  491  sudo apt install git
+  492  git --help
+  493  git fetch
+  494  git --version
+  495  sudo apt update
+  496  sudo apt upgrade
+  497  history
+  498  tree
+  499  time
+  500  name
+  501  user
+  502  whoami
+  503  sudo -s
+  504  ssh
+  505  ipconfig
+  506  ifconfig
+  507  ifconfig -release
+  508  ifconfig --release
+  509  ifconfig --help
+  510  ls
+  511  cd student
+  512  dir
+  513  cls
+  514  clear
+  515  dir
+  516  cd scripts
+  517  dir
+  518  cd portfolio
+  519  dir
+  520  ls
+  521  cd week1
+  522  dir
+  523  ./euex.sh
+  524  euex.sh
+  525  ./euex.sh
+  526  ./first.sh
+  527  ./second.sh
+  528  ./euex.sh
+  529  del euex.sh
+  530  top
+  531  dir
+  532  rm euex.sh
+  533  dir
+  534  code .
+  535  figlet
+  536  figlet hello
+  537  figlet hello | cowsay
+  538  cowsay hello | figlet
+  539  cowsay . | figlet 
+  540  cowsay . | figlet .
+  541  echo hello > hello.txt
+  542  dir
+  543  hello.txt
+  544  gedit hello.txt
+  545  cat hello.txt
+  546  rm hello.txt
+  547  touch hello.txt
+  548  dir
+  549  gedit hello.txt
+  550  echo Hi There > hello.txt
+  551  Hi there you > hello.txt
+  552  cat hello.txt
+  553  echo Hi There > hello.txt
+  554  gedit hello.txt
+  555  history
+  556  history > hello.txt
+  557  gedit hello.txt
+  558  figlet < hello.txt
+  559  cd ~
+  560  dir
+  561  ls -L
+  562  ls -l
+  563  cat file1.txt
+  564  gedit file1.txt
+  565  cd ~
+  566  dir
+  567  cd .
+  568  cd ..
+  569  dir
+  570  ls
+  571  cd phiggs
+  572  tree
+  573  dir
+  574  tree
+  575  cd..
+  576  cd /
+  577  dir
+  578  ls
+  579  cd ~
+  580  ls
+  581  cd /
+  582  ls
+  583  cd home
+  584  dir
+  585  cd ..
+  586  cd boot
+  587  dir
+  588  cd ..
+  589  dir
+  590  ls -;
+  591  cd mnt
+  592  dir
+  593  ls
+  594  ls -l
+  595  ls -:
+  596  didr
+  597  ls
+  598  cd ..
+  599  dir
+  600  cd boot
+  601  dir
+  602  cd ..
+  603  dir
+  604  cd media
+  605  dir
+  606  cd sf_vmshared
+  607  sudo cd sf_vmshared
+  608  sudo sf_vmshared
+  609  sudo -s
+  610  dir
+  611  cd
+  612  cd ..
+  613  dir
+  614  cd ~
+  615  dir
+  616  cd student
+  617  cd scripts
+  618  cd portfolio
+  619  cd week1
+  620  tree
+  621  cd ..
+  622  dir
+  623  tree
+  624  cd ..
+  625  tree
+  626  cd ..
+  627  tree
+  628  cd ..
+  629  tree
+  630  cowsay
+  631  cowsay not found
+  632  cowsay nerd
+  633  cowsay
+  634  cowsay "ls -L"
+  635  cowsay sudo -s
+  636  cowsay sudo -S
+  637  sudo apt search password
+  638  sudo apt search cows
+  639  xcowsay
+  640  sudo apt install xcowsay
+  641  xcowsay graphical
+  642  xcowsay hello Zozie
+  643  xcowsay hahahahhaa
+  644  xcowsay done
+  645  xcowsay backed up
+  646  cowsay all backed up
+  647  sudo apt install cowsay
+  648  all backed up
+  649  cowsay all backed up
+  650  cowsay I'm all backed up
+  651  cowsay Im all backed up
+  652  cowsay "I'm all backed up"
+  653  figlet hello | cowsay
+  654  figlet hello | cowsay -n
+  655  figlet "I'm all backed up" | cowsay -n
+  656  cd student
+  657  dir
+  658  tree
+  659  cd ..
+  660  dir
+  661  tree
+  662  code ./script1
+  663  cat first.sh
+  664  gedit first.sh
+  665  ./first.sh
+  666  cd student
+  667  dir
+  668  cd scrpits
+  669  cd scripts
+  670  dir
+  671  cd portfolio
+  672  dir
+  673  cd week1
+  674  dir
+  675  cat first.sh
+  676  dir
+  677  cd ..
+  678  cd ~
+  679  dir
+  680  cp script1 ~/student/scripts/portfolio/week1/
+  681  rm script1
+  682  dir
+  683  cd /student/scripts/portfolio/week1/
+  684  cd student
+  685  cd scripts
+  686  cd portfolio
+  687  cd week1
+  688  dir
+  689  cp script1 script1.sh
+  690  dir
+  691  del script1
+  692  rm script1
+  693  code script1.sh
+  694  chmod +x script1.sh
+  695  code script1.sh
+  696  ./script1.sh
+  697  cp ~/student/ /media/sf_vmshared/
+  698  cp -r ~/student/ /media/sf_vmshared/
+  699  sudo cp -r ~/student/ /media/sh_vmshared/
+  700  cp --help
+  701  sudo cp -rv ~/student/ /media/sh_vmshared/
+  702  cd~
+  703  cd ~
+  704  dir
+  705  cd /
+  706  dir
+  707  cd media
+  708  dir
+  709  cd sh_vmshared
+  710  dir
+  711  cd scripts
+  712  dir
+  713  cd ..
+  714  dir
+  715  cd media
+  716  dir
+  717  rmdir sh_vmshared
+  718  dir
+  719  sudo rmdir sh_vmshared
+  720  rmdir --help
+  721  dir
+  722  rm sh_vmshared
+  723  cd sh_vmshared
+  724  dir
+  725  cd student
+  726  dir
+  727  cd scripts
+  728  dir
+  729  rmdir assignment
+  730  rm assignment
+  731  sudo rmdir assignment
+  732  dir
+  733  sudo rmdir portfolio
+  734  cd portfolio
+  735  dir
+  736  cd week1
+  737  dir
+  738  rm *.*
+  739  sudo rm *.*
+  740  dir
+  741  cd ..
+  742  sudo rmdir week1
+  743  dir
+  744  cd week1
+  745  dir
+  746  ls
+  747  ls -l
+  748  cd ..
+  749  sudo rmdir week1
+  750  rm week1
+  751  cd ..
+  752  cd. .
+  753  cd ..
+  754  dir
+  755  rm -rf /sh_vmshared/
+  756  dir
+  757  ls
+  758  ls -l
+  759  sudo rm -rf /sh_vmshared
+  760  ls -;
+  761  ls -l
+  762  cd sf_vmshared
+  763  sudo sf_vmshared
+  764  sudo cd  sf_vmshared
+  765  sudo cd sf_vmshared
+  766  ls -l
+  767  cd sh_vmshared
+  768  dir
+  769  cd student
+  770  dir
+  771  cd ..
+  772  dir
+  773  cd scripts
+  774  dir
+  775  cd ..
+  776  cd..
+  777  cd ..
+  778  dir
+  779  cd ~
+  780  dir
+  781  cp ~/student/ /media/sf_vmshared/
+  782  sudo cp -rv /home/phiggs/student/ /media/sf_vmshared/
+  783  dir
+  784  cd student
+  785  dir
+  786  cd scripts
+  787  dir
+  788  cd portfolio
+  789  dir
+  790  cd week1
+  791  dir
+  792  ./script1.sh
+  793  sudo apt autoremove
+  794  dir
+  795  apt install cowsay
+  796  sudo apt install cowsay
+  797  ./script1.sh
+  798  sudo nautilus
+  799  sudo apt install zip
+  800  zip -r achivename.zip ~/student/
+  801  dir
+  802  rm archivename.zip
+  803  dir
+  804  rm archivename.zip
+  805  dir
+  806  ls -l
+  807  zip exit
+  808  dir
+  809  ls -;
+  810  ls -l
+  811  del archivename.zip
+  812  rm -f archivename.zip
+  813  dir
+  814  ls -l
+  815  sudo rm achivename.zip
+  816  dir
+  817  rn --help
+  818  dir
+  819  mv script1.sh backup.sh
+  820  dir
+  821  ./backup.sh
+  822  dir
+  823  gedit backup.sh
+  824  nano
+  825  nano backup.sh
+  826  emax backup.sh
+  827  vim backup.sh
+  828  sudo apt install vim
+  829  vim backup.sh
+  830  nano backup.sh
+  831  nano
+  832  ./nano.sh
+  833  chmod +x ./nano.sh
+  834  dir
+  835  ./nano.sh
+  836  cat nano.sh
+  837  vim nano.sh
+  838  ./backup2.sh
+  839  exit
+  840  cd student
+  841  dir
+  842  cd scripts
+  843  cd portfolio
+  844  dir
+  845  cd week1
+  846  dir
+  847  vim
+  848  vim vimExample.sh
+  849  chmod +x vimExample.sh
+  850  ./vimExample.sh
+  851  emacs emacsExample.sh
+  852  sudo apt install emacs
+  853  emacs emacsExample.sh
+  854  echmod +x emacsExample.sh
+  855  chmod +x emacsExample.sh
+  856  ./emacsExample.sh
+  857  ls -l
+  858  emacs emacsExample.sh
+  859  code
+  860  ./backup.sh
+  861  echo $?
+  862  ./backup.sh
+  863  echo $?
+  864  dir
+  865  chmod +x backup2.sh
+  866  ./backup2.sh
+  867  sudo ./backup2.sh
+  868  $PWD
+  869  PWD
+  870  $PWD
+  871  gzip
+  872  sudo apt install gzip
+  873  ./backup2.sh
+  874  sudo -s
+  875  ./backup2.sh
+  876  sudo ./backup2.sh
+  877  cd //
+  878  dir
+  879  ls
+  880  cd media
+  881  dir
+  882  cd sf_vmshared
+  883  sudo -s
+  884  dir
+  885  rm CYB6004.zip
+  886  dir
+  887  ./backup
+  888  ./backup.sh
+  889  sudo ./backup.sh
+  890  ./backup.sh
+  891  top
+  892  cd sf_vmshared
+  893  dir
+  894  cd student
+  895  cd~
+  896  cd..
+  897  cd .. 
+  898  cd ..
+  899  cd .
+  900  cd ..
+  901  cd~
+  902  cd ~
+  903  cd student
+  904  cd scripts
+  905  cd portfolio
+  906  dir
+  907  cd week1
+  908  dir
+  909  ./backup2.sh
+  910  dir
+  911  ./backup2.sh
+  912  sudo -s
+  913  cd /
+  914  dir
+  915  cd media
+  916  dir
+  917  exit
+  918  ./backup.sh
+  919  exit
+  920  ./backup.sh
+  921  exit
+  922  cd student
+  923  cd scripts
+  924  cd portfolio
+  925  cd week1
+  926  ./backup.sh
+  927  code backup.sh
+  928  ./backup.sh
+  929  exit
+  930  cd student
+  931  cd scripts
+  932  cd portfolio
+  933  cd week1
+  934  dir
+  935  ./backup.sh
+  936  cp --help
+  937  ./backup.sh
+  938  cron
+  939  sudo cron
+  940  ./backup.sh
+  941  cd sf_vmshared
+  942  dir
+  943  cd ..
+  944  cd sf_vmshared
+  945  dir
+  946  cd /
+  947  dir
+  948  cdmedia
+  949  cd media
+  950  dir
+  951  cd ~
+  952  dir
+  953  cd student
+  954  dir
+  955  cd scripts
+  956  dir
+  957  cd portfolio
+  958  dir
+  959  cd week1
+  960  dir
+  961  cd web
+  962  dir
+  963  cd ..
+  964  ls -lh
+  965  ls -l
+  966  cd web
+  967  dir
+  968  ./zipbackup.sh
+  969  chmod +x zipbackup.sh
+  970  dir
+  971  ./zipbackup.sh
+  972  code zipbackup.sh
+  973  die
+  974  dir
+  975  code zipbackup.sh
+  976  code ./zipbackup.sh
+  977  code
+  978  exit
+  979  cd~
+  980  cd ~
+  981  dir
+  982  cd /
+  983  dir
+  984  cd home
+  985  dir
+  986  cd phiggs
+  987  dir
+  988  cd /
+  989  dir
+  990  cd ~
+  991  cd /home/phiggs/student
+  992  dir
+  993  cd ..
+  994  cd /
+  995  dir
+  996  cd media
+  997  dir
+  998  cd sf_vmshared
+  999  sudo -s
+ 1000  cd ..
+ 1001  cd `
+ 1002  dir
+ 1003  cd ~
+ 1004  dir
+ 1005  cd student
+ 1006  cd scripts
+ 1007  cd portfolio
+ 1008  dir
+ 1009  cd week1
+ 1010  dir
+ 1011  cd web
+ 1012  dir
+ 1013  code zipbackup.sh
+ 1014  ./zipbackup.sh
+ 1015  sudo ./zipbackup.sh
+ 1016  sudo -s
+ 1017  apt install cowsay
+ 1018  cd ..
+ 1019  cd `
+ 1020  cd ~
+ 1021  dir
+ 1022  cd student
+ 1023  dir
+ 1024  cd scripts
+ 1025  dir
+ 1026  cd portfolio
+ 1027  dir
+ 1028  cd week1
+ 1029  dir
+ 1030  cd web
+ 1031  dir
+ 1032  ./weather.sh
+ 1033  curl http://wttr.in/$1
+ 1034  sudo apt install curn
+ 1035  sudo apt install curl
+ 1036  curl http://wttr.in/$1
+ 1037  curl http://wttr.in/$1 Perth
+ 1038  curl --help
+ 1039  curl http://wttr.in/$1 -Perth
+ 1040  curl http://wttr.in/$1 --Perth
+ 1041  cd student
+ 1042  cd scripts
+ 1043  cd portfolio
+ 1044  cd week1
+ 1045  dir
+ 1046  mkdir ScriptsFromWeb
+ 1047  cd scriptsfromweb
+ 1048  rmdir ScriptsFromWeb
+ 1049  dir
+ 1050  mkdir Web
+ 1051  rmdir Web
+ 1052  mkdir web
+ 1053  cd web
+ 1054  code .
+ 1055  dir
+ 1056  ./weather.sh
+ 1057  chmod +x weather.sh
+ 1058  dir
+ 1059  ./weather.sh
+ 1060  code zipbackup.sh
+ 1061  ./zipbackup.sh
+ 1062  exit
+ 1063  cd student
+ 1064  cd scripts
+ 1065  dir
+ 1066  cd portfolio
+ 1067  dir
+ 1068  cd week1
+ 1069  dir
+ 1070  cd web
+ 1071  dir
+ 1072  ./zipbackup.sh
+ 1073  sudo -s
+ 1074  dir
+ 1075  ./zipbackup.sh
+ 1076  dir
+ 1077  cd ..
+ 1078  dir
+ 1079  cd ,,
+ 1080  cd ..
+ 1081  dir
+ 1082  cd ..
+ 1083  dir
+ 1084  cd ..
+ 1085  dir
+ 1086  cd ..
+ 1087  dir
+ 1088  cd ..
+ 1089  dir
+ 1090  cd ..
+ 1091  dir
+ 1092  cd usr
+ 1093  dir
+ 1094  cd local
+ 1095  dir
+ 1096  cd games
+ 1097  dir
+ 1098  cd ,,
+ 1099  cd ..
+ 1100  dir
+ 1101  cd ~
+ 1102  dir
+ 1103  cd public
+ 1104  dir
+ 1105  cd ,,
+ 1106  cd ..
+ 1107  exit
+ 1108  cd sh_vmshared
+ 1109  fortune | cowsay
+ 1110  cd /usr/games/cowsay
+ 1111  cd /
+ 1112  dir
+ 1113  cd usr
+ 1114  cd games
+ 1115  dir
+ 1116  cd cowsay
+ 1117  cowsay
+ 1118  cowsay see you later
+ 1119  cowsay yes
+ 1120  exit
+ 1121  cd student
+ 1122  dir
+ 1123  cd scripts
+ 1124  dir
+ 1125  cd portfoliio
+ 1126  cd portfolio
+ 1127  dir
+ 1128  cd week1
+ 1129  cd web
+ 1130  dir
+ 1131  ./zipbackup.sh
+ 1132  sudo -s
+ 1133  ./zipbackup.sh
+ 1134  gedit cowsayinroot
+ 1135  dir
+ 1136  mv cowsayinroot cowsayinroot.txt
+ 1137  dir
+ 1138  cowsayinroot.txt
+ 1139  gedit cowsayinroot.txt
+ 1140  cd media
+ 1141  cd /
+ 1142  cd media
+ 1143  sudo -s
+ 1144  ln -s /usr/games/cowsay /usr/bin/cowsay
+ 1145  sudo -s
+ 1146  cd /
+ 1147  dir
+ 1148  ln -s /usr/games/cowsay /usr/bin/cowsay
+ 1149  sudo apt install cowthink
+ 1150  cd student
+ 1151  cd scripts
+ 1152  cd portfolio
+ 1153  cd week1
+ 1154  cd web
+ 1155  cd ..
+ 1156  dir
+ 1157  history | history.txt
+ 1158  history | gedit history.txt
+ 1159  dir
+ 1160  history > history.txt

@@ -1,0 +1,1000 @@
+  804  rm archivename.zip
+  805  dir
+  806  ls -l
+  807  zip exit
+  808  dir
+  809  ls -;
+  810  ls -l
+  811  del archivename.zip
+  812  rm -f archivename.zip
+  813  dir
+  814  ls -l
+  815  sudo rm achivename.zip
+  816  dir
+  817  rn --help
+  818  dir
+  819  mv script1.sh backup.sh
+  820  dir
+  821  ./backup.sh
+  822  dir
+  823  gedit backup.sh
+  824  nano
+  825  nano backup.sh
+  826  emax backup.sh
+  827  vim backup.sh
+  828  sudo apt install vim
+  829  vim backup.sh
+  830  nano backup.sh
+  831  nano
+  832  ./nano.sh
+  833  chmod +x ./nano.sh
+  834  dir
+  835  ./nano.sh
+  836  cat nano.sh
+  837  vim nano.sh
+  838  ./backup2.sh
+  839  exit
+  840  cd student
+  841  dir
+  842  cd scripts
+  843  cd portfolio
+  844  dir
+  845  cd week1
+  846  dir
+  847  vim
+  848  vim vimExample.sh
+  849  chmod +x vimExample.sh
+  850  ./vimExample.sh
+  851  emacs emacsExample.sh
+  852  sudo apt install emacs
+  853  emacs emacsExample.sh
+  854  echmod +x emacsExample.sh
+  855  chmod +x emacsExample.sh
+  856  ./emacsExample.sh
+  857  ls -l
+  858  emacs emacsExample.sh
+  859  code
+  860  ./backup.sh
+  861  echo $?
+  862  ./backup.sh
+  863  echo $?
+  864  dir
+  865  chmod +x backup2.sh
+  866  ./backup2.sh
+  867  sudo ./backup2.sh
+  868  $PWD
+  869  PWD
+  870  $PWD
+  871  gzip
+  872  sudo apt install gzip
+  873  ./backup2.sh
+  874  sudo -s
+  875  ./backup2.sh
+  876  sudo ./backup2.sh
+  877  cd //
+  878  dir
+  879  ls
+  880  cd media
+  881  dir
+  882  cd sf_vmshared
+  883  sudo -s
+  884  dir
+  885  rm CYB6004.zip
+  886  dir
+  887  ./backup
+  888  ./backup.sh
+  889  sudo ./backup.sh
+  890  ./backup.sh
+  891  top
+  892  cd sf_vmshared
+  893  dir
+  894  cd student
+  895  cd~
+  896  cd..
+  897  cd .. 
+  898  cd ..
+  899  cd .
+  900  cd ..
+  901  cd~
+  902  cd ~
+  903  cd student
+  904  cd scripts
+  905  cd portfolio
+  906  dir
+  907  cd week1
+  908  dir
+  909  ./backup2.sh
+  910  dir
+  911  ./backup2.sh
+  912  sudo -s
+  913  cd /
+  914  dir
+  915  cd media
+  916  dir
+  917  exit
+  918  ./backup.sh
+  919  exit
+  920  ./backup.sh
+  921  exit
+  922  cd student
+  923  cd scripts
+  924  cd portfolio
+  925  cd week1
+  926  ./backup.sh
+  927  code backup.sh
+  928  ./backup.sh
+  929  exit
+  930  cd student
+  931  cd scripts
+  932  cd portfolio
+  933  cd week1
+  934  dir
+  935  ./backup.sh
+  936  cp --help
+  937  ./backup.sh
+  938  cron
+  939  sudo cron
+  940  ./backup.sh
+  941  cd sf_vmshared
+  942  dir
+  943  cd ..
+  944  cd sf_vmshared
+  945  dir
+  946  cd /
+  947  dir
+  948  cdmedia
+  949  cd media
+  950  dir
+  951  cd ~
+  952  dir
+  953  cd student
+  954  dir
+  955  cd scripts
+  956  dir
+  957  cd portfolio
+  958  dir
+  959  cd week1
+  960  dir
+  961  cd web
+  962  dir
+  963  cd ..
+  964  ls -lh
+  965  ls -l
+  966  cd web
+  967  dir
+  968  ./zipbackup.sh
+  969  chmod +x zipbackup.sh
+  970  dir
+  971  ./zipbackup.sh
+  972  code zipbackup.sh
+  973  die
+  974  dir
+  975  code zipbackup.sh
+  976  code ./zipbackup.sh
+  977  code
+  978  exit
+  979  cd~
+  980  cd ~
+  981  dir
+  982  cd /
+  983  dir
+  984  cd home
+  985  dir
+  986  cd phiggs
+  987  dir
+  988  cd /
+  989  dir
+  990  cd ~
+  991  cd /home/phiggs/student
+  992  dir
+  993  cd ..
+  994  cd /
+  995  dir
+  996  cd media
+  997  dir
+  998  cd sf_vmshared
+  999  sudo -s
+ 1000  cd ..
+ 1001  cd `
+ 1002  dir
+ 1003  cd ~
+ 1004  dir
+ 1005  cd student
+ 1006  cd scripts
+ 1007  cd portfolio
+ 1008  dir
+ 1009  cd week1
+ 1010  dir
+ 1011  cd web
+ 1012  dir
+ 1013  code zipbackup.sh
+ 1014  ./zipbackup.sh
+ 1015  sudo ./zipbackup.sh
+ 1016  sudo -s
+ 1017  apt install cowsay
+ 1018  cd ..
+ 1019  cd `
+ 1020  cd ~
+ 1021  dir
+ 1022  cd student
+ 1023  dir
+ 1024  cd scripts
+ 1025  dir
+ 1026  cd portfolio
+ 1027  dir
+ 1028  cd week1
+ 1029  dir
+ 1030  cd web
+ 1031  dir
+ 1032  ./weather.sh
+ 1033  curl http://wttr.in/$1
+ 1034  sudo apt install curn
+ 1035  sudo apt install curl
+ 1036  curl http://wttr.in/$1
+ 1037  curl http://wttr.in/$1 Perth
+ 1038  curl --help
+ 1039  curl http://wttr.in/$1 -Perth
+ 1040  curl http://wttr.in/$1 --Perth
+ 1041  cd student
+ 1042  cd scripts
+ 1043  cd portfolio
+ 1044  cd week1
+ 1045  dir
+ 1046  mkdir ScriptsFromWeb
+ 1047  cd scriptsfromweb
+ 1048  rmdir ScriptsFromWeb
+ 1049  dir
+ 1050  mkdir Web
+ 1051  rmdir Web
+ 1052  mkdir web
+ 1053  cd web
+ 1054  code .
+ 1055  dir
+ 1056  ./weather.sh
+ 1057  chmod +x weather.sh
+ 1058  dir
+ 1059  ./weather.sh
+ 1060  code zipbackup.sh
+ 1061  ./zipbackup.sh
+ 1062  exit
+ 1063  cd student
+ 1064  cd scripts
+ 1065  dir
+ 1066  cd portfolio
+ 1067  dir
+ 1068  cd week1
+ 1069  dir
+ 1070  cd web
+ 1071  dir
+ 1072  ./zipbackup.sh
+ 1073  sudo -s
+ 1074  dir
+ 1075  ./zipbackup.sh
+ 1076  dir
+ 1077  cd ..
+ 1078  dir
+ 1079  cd ,,
+ 1080  cd ..
+ 1081  dir
+ 1082  cd ..
+ 1083  dir
+ 1084  cd ..
+ 1085  dir
+ 1086  cd ..
+ 1087  dir
+ 1088  cd ..
+ 1089  dir
+ 1090  cd ..
+ 1091  dir
+ 1092  cd usr
+ 1093  dir
+ 1094  cd local
+ 1095  dir
+ 1096  cd games
+ 1097  dir
+ 1098  cd ,,
+ 1099  cd ..
+ 1100  dir
+ 1101  cd ~
+ 1102  dir
+ 1103  cd public
+ 1104  dir
+ 1105  cd ,,
+ 1106  cd ..
+ 1107  exit
+ 1108  cd sh_vmshared
+ 1109  fortune | cowsay
+ 1110  cd /usr/games/cowsay
+ 1111  cd /
+ 1112  dir
+ 1113  cd usr
+ 1114  cd games
+ 1115  dir
+ 1116  cd cowsay
+ 1117  cowsay
+ 1118  cowsay see you later
+ 1119  cowsay yes
+ 1120  exit
+ 1121  cd student
+ 1122  dir
+ 1123  cd scripts
+ 1124  dir
+ 1125  cd portfoliio
+ 1126  cd portfolio
+ 1127  dir
+ 1128  cd week1
+ 1129  cd web
+ 1130  dir
+ 1131  ./zipbackup.sh
+ 1132  sudo -s
+ 1133  ./zipbackup.sh
+ 1134  gedit cowsayinroot
+ 1135  dir
+ 1136  mv cowsayinroot cowsayinroot.txt
+ 1137  dir
+ 1138  cowsayinroot.txt
+ 1139  gedit cowsayinroot.txt
+ 1140  cd media
+ 1141  cd /
+ 1142  cd media
+ 1143  sudo -s
+ 1144  ln -s /usr/games/cowsay /usr/bin/cowsay
+ 1145  sudo -s
+ 1146  cd /
+ 1147  dir
+ 1148  ln -s /usr/games/cowsay /usr/bin/cowsay
+ 1149  sudo apt install cowthink
+ 1150  cd student
+ 1151  cd scripts
+ 1152  cd portfolio
+ 1153  cd week1
+ 1154  cd web
+ 1155  cd ..
+ 1156  dir
+ 1157  history | history.txt
+ 1158  history | gedit history.txt
+ 1159  dir
+ 1160  history > history.txt
+ 1161  dur
+ 1162  dir
+ 1163  gedit history.txt
+ 1164  history > /home/phiggs/student/scripts/portfolio/history.txt
+ 1165  dir
+ 1166  cd ..
+ 1167  dir
+ 1168  gedit history.txt
+ 1169  rm history.txt
+ 1170  dir
+ 1171  ls -l
+ 1172  dir
+ 1173  cd week1
+ 1174  dir
+ 1175  cd ..
+ 1176  dir
+ 1177  cd ~
+ 1178  dir
+ 1179  cd music
+ 1180  cd Music
+ 1181  dir
+ 1182  cd ..
+ 1183  dir
+ 1184  cd /
+ 1185  dir
+ 1186  cd proc
+ 1187  dir
+ 1188  cd ..
+ 1189  dir
+ 1190  cd ~
+ 1191  ln -s /usr/games/cowthink /usr/bin/cowthink
+ 1192  cowsay
+ 1193  cowsay cowsay
+ 1194  sudo cowsay cowsay
+ 1195  exit
+ 1196  rm cowsay
+ 1197  rm cowthink
+ 1198  exit
+ 1199  cd .
+ 1200  cd/
+ 1201  dir
+ 1202  cd usr
+ 1203  cd bin
+ 1204  rm cowsay
+ 1205  sudo
+ 1206  sudo -s
+ 1207  cd /
+ 1208  cd usr
+ 1209  dir
+ 1210  cd bin
+ 1211  dir
+ 1212  ln
+ 1213  ln -l
+ 1214  ln -a
+ 1215  ln
+ 1216  ln --help
+ 1217  ls
+ 1218  ls -l
+ 1219  dir
+ 1220  exit
+ 1221  rm cowsay
+ 1222  rm cowthink
+ 1223  exit
+ 1224  cd /
+ 1225  dir
+ 1226  cd usr
+ 1227  cd bin
+ 1228  dir
+ 1229  ls
+ 1230  ln -s /usr/games/cowthink /usr/bin/cowthink
+ 1231  sudo -s
+ 1232  cd ~
+ 1233  dir
+ 1234  cd student
+ 1235  cd scripts
+ 1236  cd portfolio
+ 1237  cd week1
+ 1238  cd web
+ 1239  dir
+ 1240  sudo zipbackup.sh
+ 1241  sudo ./zipbackup.sh
+ 1242  code rootcowsay.sh
+ 1243  ./rootcowsay.sh
+ 1244  chmod +x rootcowsay.sh
+ 1245  ./rootcowsay.sh
+ 1246  dir
+ 1247  ./zipbackup.sh
+ 1248  sudo ./zipbackup.sh
+ 1249  code ./zipbackup.sh
+ 1250  ./zipbackup.sh
+ 1251  code ./zipbackup.sh
+ 1252  sudo ./zipbackup.sh
+ 1253  code csbu.sh
+ 1254  dir
+ 1255  chmod +x csbu.sh
+ 1256  ./csbu.sh
+ 1257  dir
+ 1258  ./csbu.sh
+ 1259  didr
+ 1260  ls
+ 1261  code csbu.sh
+ 1262  ./weather.sh
+ 1263  clear
+ 1264  cd..
+ 1265  cd //
+ 1266  cd ..
+ 1267  dir
+ 1268  ls -l
+ 1269  cd usr
+ 1270  dir
+ 1271  cd bin
+ 1272  ls -l
+ 1273  ./zipbackup.sh
+ 1274  exit
+ 1275  ln -s 
+ 1276  ln -s /usr/games/xcowsay /usr/bin/xcowsay
+ 1277  sudo -s
+ 1278  cd /
+ 1279  dir
+ 1280  cd bin
+ 1281  dir
+ 1282  ls
+ 1283  dir
+ 1284  ls
+ 1285  cd ..
+ 1286  cd usr
+ 1287  cd bin
+ 1288  rm cowsay
+ 1289  sudo -s
+ 1290  cd ..
+ 1291  cd..
+ 1292  cowsay
+ 1293  guicowsay jl
+ 1294  graphicalcowsay hi
+ 1295  cd bin
+ 1296  cd games
+ 1297  ddir
+ 1298  dir
+ 1299  $ cowsay -f dragon "ffs"
+ 1300  cowsay -f dragon "ffs"
+ 1301  cowsay Hello Zozie how are you today?
+ 1302  xcowsay hello zozie how are you today?
+ 1303  xcowsay BUM BUM POO FART POO POO WEE WEE BUM BUM FART
+ 1304  cd ..
+ 1305  dir
+ 1306  cd ~
+ 1307  student
+ 1308  cd student
+ 1309  cd scripts
+ 1310  cd portfolio
+ 1311  cd week1
+ 1312  cd web
+ 1313  dir
+ 1314  code zipbackup.sh
+ 1315  sudo ./zipbackup.sh
+ 1316  sudo -s
+ 1317  ./zipbackup.sh
+ 1318  dir
+ 1319  ./csbu.sh
+ 1320  code zipbackup.sh
+ 1321  ./zipbackup.sh
+ 1322  dir
+ 1323  code rootcowsay.sh
+ 1324  ./csbu.sh
+ 1325  code csbu.sh
+ 1326  code rootcowsay.sh
+ 1327  code ./zipbackup.sh
+ 1328  sudo apt install canberra-gtk-module
+ 1329  ln -s /usr/games/cowsay /usr/bin/xcowsay
+ 1330  ln -s /usr/games/xcowsay /usr/bin/xcowsay
+ 1331  rm /usr/bin/xcowsay
+ 1332  ln -s /usr/games/xcowsay /usr/bin/xcowsay
+ 1333  dir
+ 1334  cd sf_vmshared
+ 1335  dir
+ 1336  ponysay
+ 1337  sudo apt install ponysay
+ 1338  sudo snap install ponysay
+ 1339  ponysay hello
+ 1340  sudo apt remove ponysay
+ 1341  sudo snap remove ponysay
+ 1342  sudo apt search cowsay
+ 1343  sudo apt install cowsay-off
+ 1344  cowsay-off
+ 1345  cowsay hi
+ 1346  cowsay cowsay-off
+ 1347  $ cowsay cowsay-off
+ 1348  cowsay $cowsay-off
+ 1349  cowsay -off
+ 1350  cd student
+ 1351  cd scripts 
+ 1352  cd portfolio
+ 1353  cd week1
+ 1354  cd web
+ 1355  dir
+ 1356  ./weather.sh | cowsay
+ 1357  dir
+ 1358  ./zipbackup.sh | cowsay
+ 1359  sudo ./zipbackup.sh
+ 1360  cd /
+ 1361  cd media
+ 1362  dir
+ 1363  cd sf_vmshared
+ 1364  sudo -s
+ 1365  ./zipbackup.sh
+ 1366  code zipbackup.sh
+ 1367  cd ..
+ 1368  exit
+ 1369  ./home/phiggs/student/scripts/portfolio/week1/web/zipbackup.sh
+ 1370  cd /
+ 1371  dir
+ 1372  cd home
+ 1373  dir
+ 1374  cd phiggs
+ 1375  cd student
+ 1376  cd scripts
+ 1377  cd portfolio
+ 1378  cd week1
+ 1379  cd web
+ 1380  dir
+ 1381  cd ..
+ 1382  ./home/phiggs/student/scripts/portfolio/week1/web/./zipbackup.sh
+ 1383  /home/phiggs/student/scripts/portfolio/week1/web/zipbackup.sh
+ 1384  gksudo nautilus
+ 1385  sudo nautilus
+ 1386  cd ~
+ 1387  dir
+ 1388  cd /
+ 1389  dir
+ 1390  cd etc
+ 1391  dir
+ 1392  cd cron.d
+ 1393  dir
+ 1394  anacron
+ 1395  cd /
+ 1396  ~ $ grep zipbackup.sh /var/log/syslog
+ 1397  $ grep zipbackup.sh /var/log/syslog
+ 1398  grep zipbackup.sh /var/log/syslog
+ 1399  dir
+ 1400  cd ..
+ 1401  exit
+ 1402  ./zipbackup.sh
+ 1403  exit
+ 1404  cd student
+ 1405  cd scripts
+ 1406  cd portfolio
+ 1407  cd week1
+ 1408  cd web
+ 1409  dir
+ 1410  ./zipbackup.sh
+ 1411  sudo -s
+ 1412  dir
+ 1413  code zipbackup.sh
+ 1414  sudo ./zipbackup.sh | cowsay
+ 1415  sudo ./zipbackup.sh | xcowsay
+ 1416  dir
+ 1417  sudo ./csbu.sh | xcowsay
+ 1418  xcowsay "Hello there mum how are you today?"
+ 1419  xcowsay -dragon hello
+ 1420  cowsay -dragon hello
+ 1421  xcowsay -f dragon hello
+ 1422  xcowsay hello zozie did you POOP?
+ 1423  crontab
+ 1424  crontab -e
+ 1425  crontab -l
+ 1426  crontab -e
+ 1427  crontab -gedit
+ 1428  select-editor
+ 1429  select-editor --help
+ 1430  crontab -e
+ 1431  select-editor=gedit
+ 1432  export EDITOR=gedit; crontab -e
+ 1433  cd ../..
+ 1434  cd ..
+ 1435  dir
+ 1436  cd /
+ 1437  dir
+ 1438  crontab -e
+ 1439  cd ~
+ 1440  cd student
+ 1441  cd scripts
+ 1442  cd portfolio
+ 1443  cd week1
+ 1444  cd web
+ 1445  dir
+ 1446  ./csbu.sh
+ 1447  sudo -s
+ 1448  dir
+ 1449  code zipbackup.sh
+ 1450  sudo -s
+ 1451  code zipbackup.sh
+ 1452  sudo -s
+ 1453  $ ./second.sh Rob
+ 1454  exit
+ 1455  cd stuent
+ 1456  cd student
+ 1457  cd scripts
+ 1458  cd portfolio
+ 1459  cd week12
+ 1460  cd week1
+ 1461  dir
+ 1462  code backup.sh
+ 1463  ./backup.sh
+ 1464  code backup.sh
+ 1465  code backup.sh]
+ 1466  ./backup.sh
+ 1467  code backup.sh
+ 1468  dir
+ 1469  code second.sh
+ 1470  $ ./second.sh Hahhaa
+ 1471  sudo -s
+ 1472  code second.sh
+ 1473  $ ./second.sh Hahhaa
+ 1474  ./second.sh $Rob
+ 1475  ./second.sh rob
+ 1476  ./second.sh "for fuck sake" |cowsay
+ 1477  curl https://www.google.com.au
+ 1478  https://www.google.com.au
+ 1479  firefox https://www.google.com.au
+ 1480  sudo apt install --reinstall libcanberra-gtk-module
+ 1481  cd student
+ 1482  cd scripts
+ 1483  cd portfolio
+ 1484  cd week1
+ 1485  cd web
+ 1486  dir
+ 1487  ./csbu.sh
+ 1488  ./csbu.sh | xcowsay
+ 1489  cowsay hello | xcowsay
+ 1490  xcowsay "hello zozie why you so bored, maybe you should go to school"
+ 1491  cowsay zozie says NOxcowsay "hello zozie why you so bored, maybe you should go to school"xcowsay "hello zozie why you so bored, maybe you should go to school"! no no no no no no no no
+ 1492  exit
+ 1493  xcowsay "Ineed to do a plopper"
+ 1494  xcowsay "I need to do a plopper"
+ 1495  code colourfuldate.sh
+ 1496  chmod +x colourfuldate.sh
+ 1497  colourfuldate.sh
+ 1498  ./colourfuldate.sh
+ 1499  sudo apt install toilet
+ 1500  ./colourfuldate.sh
+ 1501  code domains.sh
+ 1502  chmod +x domains.sh
+ 1503  ./domains.sh
+ 1504  ./domains.sh google.com
+ 1505  ./domains.sh tpg.com.au
+ 1506  ./domains.sh www.tpg.com.au
+ 1507  ./domains.sh https://www.tpg.com.au
+ 1508  ./domains.sh test.com
+ 1509  whois
+ 1510  sudo apt install whois
+ 1511  ./domains.sh test.com
+ 1512  ./domains.sh tpg.com.au
+ 1513  ./domains.sh google.com
+ 1514  ./domains.sh google.com.au
+ 1515  touch mail.sh
+ 1516  gedit mail.sh
+ 1517  chmod +x mail.sh
+ 1518  ./mail.sh
+ 1519  gedit mail.sh
+ 1520  code mail.sh
+ 1521  sudo apt install protonbridge
+ 1522  sudo apt search protonmail bridge
+ 1523  sudo apt search protonmail
+ 1524  sudo apt search proton
+ 1525  ./sus.sh
+ 1526  exit
+ 1527  cd /
+ 1528  cd etc
+ 1529  dir
+ 1530  cd profile
+ 1531  dir
+ 1532  ls
+ 1533  cd profile.d
+ 1534  dir
+ 1535  ls
+ 1536  ls -a
+ 1537  ls -l
+ 1538  ls -n
+ 1539  cd ~
+ 1540  dir
+ 1541  cd ~/.bash_profile
+ 1542  cd ~/.bash_login
+ 1543  cd ~/.profile
+ 1544  dir
+ 1545  cd .
+ 1546  cd/
+ 1547  cd /
+ 1548  dir
+ 1549  ls
+ 1550  ls -l
+ 1551  ls -a
+ 1552  ls 
+ 1553  cd ~
+ 1554  dir
+ 1555  cd student
+ 1556  cd scripts
+ 1557  cd portfolio
+ 1558  cd week1
+ 1559  cd web
+ 1560  code sus.sh
+ 1561  chmod +x sus.sh
+ 1562  ./sus.sh
+ 1563  sudo -s
+ 1564  end
+ 1565  exit
+ 1566  ./sbus.sh
+ 1567  exit
+ 1568  ./zipbackup.sh
+ 1569  exit
+ 1570  date +%F
+ 1571  date +%Y%m%d-%R
+ 1572  cd student
+ 1573  cd scripts
+ 1574  cd portfolio
+ 1575  cd week1
+ 1576  cd web
+ 1577  sudo -s
+ 1578  grep pattern files
+ 1579  grep hello
+ 1580  grep -r . hello
+ 1581  grep -r ~/student/scripts/portfolio/week1/web/ hello
+ 1582  locate hello
+ 1583  cak
+ 1584  cal
+ 1585  cal | cowsay
+ 1586  cowsay cal
+ 1587  uptime
+ 1588  w
+ 1589  whoami
+ 1590  finger phiggs
+ 1591  sudo apt install finger
+ 1592  finger phiggs
+ 1593  cat /proc/cpuinfo
+ 1594  cat /proc/meminfo
+ 1595  df
+ 1596  du
+ 1597  free
+ 1598  whereis cowsay
+ 1599  whereis proton
+ 1600  whereis protonmailbridge
+ 1601  whereis protonmail
+ 1602  remove protonmail
+ 1603  apt remove protonmail
+ 1604  sudo apt remove protonmail
+ 1605  ./configure
+ 1606  dig www.google.com.au
+ 1607  dig www.tpg.com.au
+ 1608  wget
+ 1609  wget www.google.com.au
+ 1610  df
+ 1611  foo.sh
+ 1612  ./foo.sh
+ 1613  chmod +x pbwf.sh
+ 1614  ./pbwf.sh
+ 1615  ./pbwf.sh | cowsay -r dragon
+ 1616  ./pbwf.sh | cowsay --dragon
+ 1617  ./pbwf.sh | cowsay
+ 1618  ./pbwf.sh | xcowsay
+ 1619  touch while.sh
+ 1620  touch chmod.sh
+ 1621  chmod +x chmod.sh
+ 1622  code chmod.sh
+ 1623  ./chmod.sh
+ 1624  code while.sh
+ 1625  ./chmod.sh
+ 1626  ./while.sh
+ 1627  touch until.sh
+ 1628  code touch.sh
+ 1629  ./chmod
+ 1630  ./chmod.sh
+ 1631  mv touch.sh until.sh
+ 1632  ./chmod.sh
+ 1633  ./until.sh
+ 1634  code until.sh
+ 1635  ./until.sh
+ 1636  ./while.sh
+ 1637  ./until.sh
+ 1638  ./zipbackup.sh
+ 1639  hostname
+ 1640  cd /media/sf_vmshared
+ 1641  dir
+ 1642  ls -lh
+ 1643  cd student
+ 1644  dir
+ 1645  cd scripts
+ 1646  cd portfolio
+ 1647  cd week1
+ 1648  cd web
+ 1649  dir
+ 1650  cd ..
+ 1651  cd week1
+ 1652  dir
+ 1653  ls
+ 1654  ls -l
+ 1655  ls -lh
+ 1656  ls -l
+ 1657  ls -h
+ 1658  ls -l
+ 1659  date --help
+ 1660  exit
+ 1661  ./exit.sh
+ 1662  exit
+ 1663  cd student
+ 1664  cd scripts
+ 1665  cd portfolio
+ 1666  cd week1
+ 1667  cd web
+ 1668  rm sbus.sh
+ 1669  ls -l
+ 1670  code zipbackup.sh
+ 1671  touch foo.sh
+ 1672  chmod +x foo.sh
+ 1673  code foo.sh
+ 1674  ./until.sh
+ 1675  sudo ./exit.sh
+ 1676  rm exit.sh
+ 1677  ls -lh
+ 1678  wc
+ 1679  cowsay 3.141592653589793238462643383279502884
+ 1680  sudo apt search pi
+ 1681  sudo apt search quake
+ 1682  rtcw
+ 1683  sudo apt search rtcw
+ 1684  clear
+ 1685  dir
+ 1686  wc cowsayinroot.txt
+ 1687  ls -1
+ 1688  ls -2
+ 1689  ls -1
+ 1690  ls -5
+ 1691  ls -1 | wc -1
+ 1692  ls -1 | wc
+ 1693  cksum foo.sh
+ 1694  cksum helloworld.sh
+ 1695  nl
+ 1696  nl helloworld.sh
+ 1697  cat helloworld.sh
+ 1698  wc -
+ 1699  cat .bash_profie
+ 1700  exit
+ 1701  cd student
+ 1702  cd scripts
+ 1703  cd portfolio
+ 1704  cd week1
+ 1705  cd web
+ 1706  code sbus.sh
+ 1707  chmod +x sbus.sh
+ 1708  ./sbus.sh
+ 1709  sudo ./sbus.sh
+ 1710  dir
+ 1711  sudo rm sbus.sh
+ 1712  dir
+ 1713  ./weather.sh
+ 1714  ls -l
+ 1715  ls -l > ls-l.txt
+ 1716  cat ls-l.txt
+ 1717  rm ls-l.txt
+ 1718  dir
+ 1719  ls
+ 1720  ls -l
+ 1721  grep da * 2
+ 1722  ls -l | sed -e "s/[aeio]/u/g"
+ 1723  ls -l
+ 1724  ls -l | grep "\.txt$"
+ 1725  history
+ 1726  dir
+ 1727  cat cowsayinroot.txt
+ 1728  code helloworld.sh
+ 1729  chmod +x helloworld.sh
+ 1730  ./helloworld.sh
+ 1731  touch sbus.sh
+ 1732  chmod +x sbus.sh
+ 1733  code sbus.sh
+ 1734  ./sbus.sh
+ 1735  sudo -s
+ 1736  date
+ 1737  date +%Y%m%d
+ 1738  date
+ 1739  date | file.txt
+ 1740  date > file.txt
+ 1741  cat file.txt
+ 1742  rm file.txt
+ 1743  dir
+ 1744  code zipbackup.sh
+ 1745  ./zipback.sh
+ 1746  ./zipbackup.sh
+ 1747  sudo -s
+ 1748  touch exit.sh
+ 1749  ./chmod.sh
+ 1750  code exit.sh
+ 1751  sudo -s
+ 1752  ./exit/sh
+ 1753  ./exit.sh
+ 1754  sudo -s
+ 1755  cd ~
+ 1756  cat .bash_profile
+ 1757  dir
+ 1758  cd /
+ 1759  cat .bash_profile
+ 1760  dir
+ 1761  find
+ 1762  find bash
+ 1763  find
+ 1764  find --help
+ 1765  exit
+ 1766  history
+ 1767  exit
+ 1768  lsmod
+ 1769  dir
+ 1770  netstat
+ 1771  netcat
+ 1772  setfacl
+ 1773  gedit
+ 1774  phiggs@phiggs-VirtualBox:/bin$ setfacl
+ 1775  history
+ 1776  hello
+ 1777  history
+ 1778  cd ~
+ 1779  dir
+ 1780  cd desktop
+ 1781  cd Desktop
+ 1782  history > history.txt | xcowsay | cowsay
+ 1783  history > history.txt | xcowsay
+ 1784  history | xcowsay
+ 1785  history | cowsay
+ 1786  cd ..
+ 1787  dir
+ 1788  cd student
+ 1789  cd scripts
+ 1790  cd portfolio
+ 1791  cd week1
+ 1792  cd web
+ 1793  code zipbackup.sh
+ 1794  ./zipbackup.sh
+ 1795  sudo -s
+ 1796  cat history.txt
+ 1797  gedit history.txt
+ 1798  history
+ 1799  dir
+ 1800  rm history.txt
+ 1801  dir
+ 1802  code zipbackup.sh
+ 1803  history > history.txt
