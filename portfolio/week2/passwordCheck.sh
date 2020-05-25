@@ -20,11 +20,12 @@ cp /home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw2.txt /home/phi
 #https://superuser.com/questions/1312740/how-to-take-sha256sum-of-file-and-compare-to-check-in-one-line
 #echo -n cat ./secretpw/sha256.txt | sha256sum -c  ./secretpw/secretpw2.txt
 #echo "14bb4a88ca1378437689f64db055cd78488f4c01a103a3efc04bcbd639922b1b  ./secretpw/secretpw2.txt" | sha256sum --check
-
 # echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c
 
 # https://stackoverflow.com/questions/51546097/verify-sha-256-sum-of-a-file-and-exit-the-script-if-not-as-intended
-if ! echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c -; then
+# IF statement if wrong password entered
+if ! echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c -; 
+then
     echo
     echo "Access Denied" >&2
     echo
