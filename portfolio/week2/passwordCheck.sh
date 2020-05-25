@@ -19,4 +19,4 @@ echo "$password" | sha256sum > /home/phiggs/student/scripts/portfolio/week2/secr
 #echo -n cat ./secretpw/sha256.txt | sha256sum -c  ./secretpw/secretpw2.txt
 #echo "14bb4a88ca1378437689f64db055cd78488f4c01a103a3efc04bcbd639922b1b  ./secretpw/secretpw2.txt" | sha256sum --check
 
-echo -n "cat sha2.txt" | sha256sum -c  secretpw2.txt
+echo -n "$(cat ./secretpw/sha.txt)" | sha256sum -c
