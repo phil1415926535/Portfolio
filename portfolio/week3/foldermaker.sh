@@ -3,8 +3,8 @@
 R1="$USER"
 
 #Lets user know what to expect
-echo "This program makes a folder, then takes your password you enter and stores it in a file"
-echo "Enter the name of the folder you want to create, not the path"
+echo "Please enter the path and folder of the folder you would like to make"
+echo "just enter the name of the folder now, not the path"
 echo "After entering this the directory tree will display so you can identify path"
 echo
 read name
@@ -33,14 +33,6 @@ if [[ "$yorn" == "n" ]]
 then
     rmdir /home/$R1$path$name && exit
 fi
-
-# Ask user to Create a secret password and save it in a file in the created folder 
-echo "Please create a secret password to save in created folder"
-read -s -p "Password:  " password
-
-# Save password in file
-echo "$password" | sha256sum >> /home/$R1$path$name/secretpw.txt
-echo /home/$R1$path$name >> /home/phiggs/student/scripts/portfolio/week2/pwdirlog.txt
 
 # Asks user to open folder in a terminal window
 echo "Do you want to open the folder in terminal now? Answer: y / n"

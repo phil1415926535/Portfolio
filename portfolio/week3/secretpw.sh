@@ -40,7 +40,6 @@ read -s -p "Password:  " password
 
 # Save password in file
 echo "$password" | sha256sum >> /home/$R1$path$name/secretpw.txt
-echo /home/$R1$path$name >> /home/phiggs/student/scripts/portfolio/week2/pwdirlog.txt
 
 # Asks user to open folder in a terminal window
 echo "Do you want to open the folder in terminal now? Answer: y / n"
