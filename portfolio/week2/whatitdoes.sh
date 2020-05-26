@@ -36,3 +36,8 @@
  echo "password length should be greater than or equal 8 hence weak password"
  fi
  
+# To make it password more secure:
+# hide user input from screen output
+# hash password and store it in file
+# add salt to password before hashing and storing
+# store password in secure encrypted location

@@ -3,13 +3,18 @@
 # Asks user to enter password to check and sets password variable
 echo "Please enter a password for verification"
 read -s -p "Password: " password
+echo
 
 # Creates file with new hash inside for comparison to original
 # Will be comparing the hashes of the files not the hashes inside the files
 # HASH of entered password goes into file
-echo "$password" | sha256sum > /home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw2.txt
-cp /home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw2.txt /home/phiggs/student/scripts/portfolio/week2/secretpw2.txt
+echo "$password" | sha256sum > ~/student/scripts/portfolio/week2/secretpw/secretpw2.txt
 
+# Creates hash of the file containing the hash of the password
+sha256sum ./secretpw/secretpw2.txt > ./secretpw/sha2.txt
+
+# Copies contents to new file removing the file identifier from text
+cat ./secretpw/sha2.txt | cut -d " " -f 1 > ./secretpw/sha3.txt
 
 # The file with the hashed password has its checksum copied to a file
 # echo sha256sum /home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw.txt  /home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw.txt > /home/phiggs/student/scripts/portfolio/week2/secretpw/sha256.txt
@@ -23,8 +28,8 @@ cp /home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw2.txt /home/phi
 # echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c
 
 # https://stackoverflow.com/questions/51546097/verify-sha-256-sum-of-a-file-and-exit-the-script-if-not-as-intended
-# IF statement if wrong password entered
-if ! echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c -; 
+# IF statement if wrong password entered - also adds in file identifier of original file with password in
+if ! echo -n "$(cat ./secretpw/sha3.txt) ./secretpw/secretpw.txt" | sha256sum -c --status -; 
 then
     echo
     echo "Access Denied" >&2
