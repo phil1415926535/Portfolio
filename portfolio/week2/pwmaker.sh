@@ -3,7 +3,7 @@
 R1="$USER"
 
 #Lets user know what to expect
-echo "This program makes a new folder with a name you specify"
+echo "This program makes a folder, then takes your password you enter and stores the hash in a file"
 echo "Do you want to view the directory tree to assist in making decision?"
 read -p "y / n: " answer1
 
@@ -35,6 +35,26 @@ else
     mkdir /home/$R1$folderPath$folderName # Makes the directory from the default user directory - see R1
     echo "FOLDER CREATED!"
     echo
+fi
+
+# Ask for name of file to create
+echo "What do you want to name the file - usual format is with *.txt extension"
+read -p "File Name: " fileName
+
+# Ask user to Create a secret password and save it in a file in the created folder 
+echo "Now create a secret password to save in created folder"
+read -s -p "Password:  " password
+
+# Save password in file and makes a log of the directory path and file name
+echo "$password" | sha256sum > /home/$R1$folderPath$folderName/$fileName
+
+echo "Do you want to log this"
+echo "Note: may affect usability of other programs"
+read -p "y/n: " answer3
+
+if [[ $answer3 == "y" ]];
+then
+    echo /home/$R1$folderPath$folderName/$fileName > /home/$R1$folderPath/pwdirlog.txt
 fi
 
 # Asks user to open folder in a terminal window

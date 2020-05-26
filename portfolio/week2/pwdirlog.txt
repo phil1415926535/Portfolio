@@ -1,1 +1,1 @@
-/home/phiggs/student/scripts/portfolio/week2/ffs
+/home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw.txt
