@@ -1,6 +1,1 @@
-/home/phiggs/student/scripts/portfolio/week2/secretpw
-/home/phiggs/student/scripts/portfolio/week2/secretpw
-/home/phiggs/student/scripts/portfolio/week2/secretpw
-/home/phiggs/student/scripts/portfolio/week2/secretpw
-/home/phiggs/student/scripts/portfolio/week2/secretpw
-/home/phiggs/student/scripts/portfolio/week2/secretpw
+/home/phiggs/student/scripts/portfolio/week2/ffs
