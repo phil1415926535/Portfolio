@@ -4,5 +4,4 @@ Enjoy :)
 
 pwdirlog.txt stores path to file when creating password file initially with pwandfoldermaker.sh and uses this with a cat command in other scripts.
 
-Version of errors.sh called errors-cowsay.sh in test folder is more fun and links to menu.sh but needs to be moved/copied to week2/ directory to run the menu properly.
 
