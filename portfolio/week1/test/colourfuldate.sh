@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if hash toilet 2> /dev/null; then
+if hash toilet 2> /dev/null;
+then
 	echo "Colorful Date :)" | toilet -f mini --gay
 	sleep 0.9
 	while true; do
