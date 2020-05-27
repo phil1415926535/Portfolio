@@ -1,0 +1,8 @@
+Not too secure but the password I've set for the program is: "1234"
+or you can make your own by running ./setPassword.sh or running ./pwmaker.sh and choosing folder in week2 called secretpw and putting in file called secretpw.txt
+Enjoy :)
+
+pwdirlog.txt stores path to file when creating password file initially with pwandfoldermaker.sh and uses this with a cat command in other scripts.
+
+Version of errors.sh called errors-cowsay.sh in test folder is more fun and links to menu.sh but needs to be moved/copied to week2/ directory to run the menu properly.
+
