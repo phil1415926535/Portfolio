@@ -1,0 +1,136 @@
+
+{
+	// Place your snippets for shellscript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Add Shebang": {
+		"scope": "sh",
+		"prefix": "shebang",
+		"body": [
+			"#!/bin/bash",
+		],
+		"description": "Adds Shebang Script Head"
+	},
+
+	"Add Case Statement": {
+		"scope": "sh",
+		"prefix": "case",
+		"body": [
+			"case $var in",
+				"{testitems} )",
+					"# code if match",
+					";;",
+				"{testitems} )",
+					"# code if match",
+					";;",
+				"{testitems} )",
+					"# code if match",
+					";;",
+				"*) # default case",
+					"# code if default case",
+					";;",
+			"esac"
+		],
+		"description": "Adds Case Statement Structure"
+	},
+
+	"User Prompt": {
+		"scope": "sh",
+		"prefix": "promptuser",
+		"body": [
+			"read -p '{user prompt}' var",
+		],
+		"description": "Adds User Prompt"
+	},
+
+	"Add And-Or Triple Test": {
+		"scope": "sh",
+		"prefix": "andortriple",
+		"body": [
+			"if [[ {andtest} ]] && ( [[ {oroption1} ]] || [[ {oroption2} ]] ); then",
+				"# code if true",
+			"else",
+				"# code if false",
+			"fi"
+		],
+		"description": "Adds IF-ELSE test with one AND and two OR options"
+	},
+
+	"Red Text": {
+		"scope": "sh",
+		"prefix": "redtext",
+		"body": [
+			"# Reference: https://askubuntu.com/questions/623855/changing-the-text-color-in-ubuntu-terminal",
+			// Colours: - double backslash is for VS Code snippets to escape interpreting the backslash as a command",
+			"# \\033 could also be \\e or \\x1B",
+			"# [0m to change colour back",
+			"# Black \\033[30m",
+			"# Red \\033[31m",
+			"# Green \\033[32m",
+			"# Brown \\033[33m",
+			"# Blue \\033[34m",
+			"# Purple \\033[35m",
+			"# Cyan \\033[36m",
+			"# Grey \\033[37m",
+			"echo -e '\\033[31m {change this in here - everything displayed from here will be red} \\033[0m'",
+		],
+		"description": "Default RED - choose different colours for text"
+	},
+	"date1": {
+		"scope": "sh",
+		"prefix": "date1",
+		"body": [
+			" *** `date '+%d %b %Y  %a  %T%p %Z'` **** " 
+		],
+		"description": "28 May 2020  Thu  22:16:44PM AWST",
+	},
+	"date2": {
+		"scope": "sh",
+		"prefix": "date2",
+		"body": [
+			"date +%Y%b%d_%T%p" 
+		],
+		"description": "2020May28_22:20:08PM",
+	},
+
+	"find & list files in a folder": {
+		"scope": "sh",
+		"prefix": "list files",
+		"body": [
+			//All single backslash needs a backslash before it to cancel it out
+			"# Reference: http://www.subdude-site.com/WebPages_Local/RefInfo/Computer/Linux/handyCommandsAndScripts/ScriptSnippets/script_snippets.htm#grp_awk",
+			"find  {***directory-here***} -type f -exec file {} \\;",
+		],
+		"description": "finds and lists files and folders from a given directory"
+	},
+	"grep_countFromFile": {
+		"scope": "sh",
+		"prefix": "grep_countFromFile",
+		"body": [
+			"# Reference: http://www.subdude-site.com/WebPages_Local/RefInfo/Computer/Linux/handyCommandsAndScripts/ScriptSnippets/script_snippets.htm#grp_awk",
+			"cat {filepath and filename} | grep '{string that you want to list}' | wc -l",
+		],
+		"description": "count of how many entries with string",
+	},
+	"find and count output": {
+		"scope": "sh",
+		"prefix": "findCountOutput",
+		"body": [
+			"find  {folder} -type f -exec file {} \\; > {outputFile.txt}",
+			"R1=$(cat anotherFile.txt)",
+			"cat {file} | grep '{string searching for}' | wc -l",
+		],
+	},
+
+}

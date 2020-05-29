@@ -1,0 +1,112 @@
+/home/phiggs/student/scripts/portfolio/week3/foldermaker.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week3/foldercopier.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week3/secretpw/secretpw.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week3/test/anotherFile.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week3/test/outputFile.txt: empty
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week3/test/file.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week3/test/.vscode/launch.json: ASCII text
+/home/phiggs/student/scripts/portfolio/week3/test/outlist.txt: diff output, ASCII text
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week3/test/output.sh: diff output, ASCII text, with escape sequences
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week3/shellscript.json: ASCII text
+/home/phiggs/student/scripts/portfolio/.git/config: ASCII text
+/home/phiggs/student/scripts/portfolio/.git/info/exclude: ASCII text
+/home/phiggs/student/scripts/portfolio/.git/description: ASCII text
+/home/phiggs/student/scripts/portfolio/.git/HEAD: ASCII text
+/home/phiggs/student/scripts/portfolio/.git/hooks/pre-commit.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/pre-rebase.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/pre-push.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/post-update.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/prepare-commit-msg.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/pre-applypatch.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/fsmonitor-watchman.sample: Perl script text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/applypatch-msg.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/pre-receive.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/commit-msg.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.git/hooks/update.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/README.md: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/Commentary.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/folderCopier.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/errors.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/pwdirlog.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/secretpw/sha3.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw2.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/secretpw/sha.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/secretpw/secretpw.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/secretpw/sha2.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/test/errors-cowsay.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/test/cl.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/test/coolname.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/test/.vscode/launch.json: ASCII text
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/menu.sh: Bourne-Again shell script, UTF-8 Unicode text executable
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week2/.vscode/launch.json: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/first.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/hello.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/history.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/second.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/.nano.sh.swp: Vim swap file, version 8.0, pid 26431, user phiggs, host phiggs-VirtualBox, file ~phiggs/student/scripts/portfolio/week1/nano.sh, modified
+/home/phiggs/student/scripts/portfolio/week1/nano.sh: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/vimExample.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/secret.jpg: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/foo.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/testing2.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/history.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/mail.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/stderr.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/colourfuldate.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/testing.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/scriptinput.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/helloworld.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/mysystem.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/weather.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/config: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/.git/info/exclude: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/.git/description: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/.git/HEAD: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/pre-commit.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/pre-rebase.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/pre-push.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/post-update.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/prepare-commit-msg.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/pre-applypatch.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/fsmonitor-watchman.sample: Perl script text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/applypatch-msg.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/pre-receive.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/commit-msg.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.git/hooks/update.sample: POSIX shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/cowsayinroot.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/csbu.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/game/installcs.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/game/alt_image2.png: PNG image data, 798 x 661, 8-bit/color RGBA, non-interlaced
+/home/phiggs/student/scripts/portfolio/week1/test/game/alt_image.jpeg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94, resolutionunit=2, software=GIMP 2.8.22], progressive, precision 8, 700x600, frames 3
+/home/phiggs/student/scripts/portfolio/week1/test/alt_image2.png: PNG image data, 798 x 661, 8-bit/color RGBA, non-interlaced
+/home/phiggs/student/scripts/portfolio/week1/test/alt_image.jpeg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94, resolutionunit=2, software=GIMP 2.8.22], progressive, precision 8, 700x600, frames 3
+/home/phiggs/student/scripts/portfolio/week1/test/while.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/whilestdin.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/until.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/forcontinue.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/typescript: ASCII text, with CRLF, LF line terminators, with escape sequences
+/home/phiggs/student/scripts/portfolio/week1/test/domains.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/chmod.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/rootcowsay.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/secret.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/zipbackup.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/file2.txt: empty
+/home/phiggs/student/scripts/portfolio/week1/test/forloop.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/pbwf.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/test/.weather.sh.swp: Vim swap file, version 8.0, pid 5363, user phiggs, host phiggs-VirtualBox, file ~phiggs/student/scripts/portfolio/week1/web/weather.sh, modified
+/home/phiggs/student/scripts/portfolio/week1/test/file1.txt: ASCII text
+/home/phiggs/student/scripts/portfolio/week1/test/sus.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/week1/emacsExample.sh: Bourne-Again shell script, ASCII text executable
+/home/phiggs/student/scripts/portfolio/.vscode/launch.json: ASCII text
