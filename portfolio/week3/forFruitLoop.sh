@@ -10,7 +10,7 @@ done
 echo
 
 # from files
-for OUTPUT in apple.txt mango.txt strawberry.txt orange.txt banana.txt
+for OUTPUT in ./fruit/apple.txt ./fruit/mango.txt ./fruit/strawberry.txt ./fruit/orange.txt ./fruit/banana.txt
 do
     echo "FRUIT: $(cat $OUTPUT)"
 done
