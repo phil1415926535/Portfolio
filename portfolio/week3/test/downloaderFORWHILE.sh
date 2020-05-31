@@ -35,6 +35,7 @@ read -p "Type a download directory location: " loc
         fi     
     done
 done
+
 # References:
 # https://www.gnu.org/software/wget/manual/wget.html#Download-Options
 # https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html

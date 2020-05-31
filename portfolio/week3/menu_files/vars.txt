@@ -1,0 +1,10 @@
+R1="./folderMaker.sh"
+R2="./folderCopier.sh"
+R3="./setPassword.sh"
+R4="./calculator.sh"
+R5="./megafoldermaker.sh"
+R6="./filenames.sh"
+R7="./downloader.sh"
+
+E0="exit 0"
+E1="exit 1"

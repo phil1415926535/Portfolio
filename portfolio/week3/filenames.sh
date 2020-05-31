@@ -6,7 +6,7 @@
 # Reference: https://www.quora.com/Bash-shell-What-does-IFS-n-mean
 IFS=$'\n'
 # {cat filenames.txt | while read line}  # also works but opens a sub-process according to stackoverflow reference below
-for line in $(cat /filenames/filenames.txt)
+for line in $(cat filenames.txt)
 do
     if [[ -f $line ]];
     then
@@ -37,7 +37,7 @@ do
     else 
         echo "$line : I dont know what that is"
     fi
-done < ./filenames/filenames.txt
+done < filenames.txt
 
 # Reference
 # Adapted from: https://stackoverflow.com/questions/1521462/looping-through-the-content-of-a-file-in-bash

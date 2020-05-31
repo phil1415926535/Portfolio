@@ -14,6 +14,9 @@ BLUE="\033[34m"
 GREEN="\033[32m"
 RED="\033[31m"
 PURPLE="\033[35m"
+BOLD="\033[1m" # Reference: StackOverflow
+UL="\033[4"    # https://stackoverflow.com/questions/2924697/how-does-one-output-bold-text-in-bash
+BLINK="\033[5" # Paragraph/Answer: 67
 OFF="\033[0m"
 
 

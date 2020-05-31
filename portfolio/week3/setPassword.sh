@@ -2,14 +2,12 @@
 #! created by Philip Higgs (references for borrowed work noted)
 #! have modified secretpw.sh file created earlier as this is now more adapted to work with menu.sh 
 
-# VARIABLES
-# Reference: "https://unix.stackexchange.com/questions/181423/how-to-assign-the-cat-output-of-a-bash-script-to-a-variable-in-another-script" $( cat pwdirlog.txt )
 R1=$(cat pwdirlog.txt)
 
+# VARIABLES
+# Reference: "https://unix.stackexchange.com/questions/181423/how-to-assign-the-cat-output-of-a-bash-script-to-a-variable-in-another-script" $( cat pwdirlog.txt )
 E0="exit 0"
 E1="exit 1"
-
-touch pwdirlog.txt
 
 #Lets user know what to expect
 echo "Do you want to change your password to a new one?"
@@ -37,7 +35,7 @@ echo "Please create a new secret password to save"
 read -s -p "Password:  " password
 
 # Save password in file overwriting previous file
-echo "$password" | sha256sum > $R1
+echo "$password" | sha256sum > ./secretpw/secretpw.txt
 echo
 echo "Done"
 echo
