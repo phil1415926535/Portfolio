@@ -33,12 +33,14 @@ fi
 while true;
 do
 
+# Link to menu display bash script
 ./menu_files/menu.sh
 echo -e "$YE$BO"
 read -p "Selection (eg: one or 1): " option
 echo -e "$O"
 
 # Case statement - adapted from "https://www.thegeekstuff.com/2010/07/bash-case-statement/"
+# Options in Menu to choose
 case $option in
     [1] | [oO][nN][eE] )
         echo "Making Folder ..."
@@ -63,9 +65,11 @@ case $option in
         echo "Creating Week Folders ..."
         echo "Please enter 3 week numbers to make the folders"
         read -p "3 numbers (eg, 4 5 6 ): " num 
+
+        #Passes the variables entered to the ./megafoldermaker.sh script
         $R5 $num
-        echo "Done"
         ;;
+
     [6] | [sS][iI][xX] )
         echo "Checking Filenames  ..."
         $R6
@@ -87,6 +91,7 @@ case $option in
 esac
 
 echo "Back to menu"
+sleep 1
 
 done
 
