@@ -1,21 +1,6 @@
 #!/bin/bash
 
-function ffs
+printError()
 {
-
-    echo "variable 1 a basic ffs" 
-
+    echo -e "\033[31mERROR:\033[0m $1"
 }
-
-foo2 ()
-{
-
-# Input variables into a function
-    echo "whatever: " $1 $2
-    echo "all input variables in foo2" $3
-    
-
-}
-
-ffs
-foo2 hi there everyone
