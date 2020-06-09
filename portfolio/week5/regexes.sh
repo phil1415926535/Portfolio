@@ -38,13 +38,14 @@ echo -e "            using [:graph:] per word, separated by space"
 echo -e
 sleep 0.1
 echo -e "       5d. all lines that would make a good password"
-echo -e "            min of 4 char per word, 4 words"
-echo -e "            using [:alnum:] per word, separated by space"
+echo -e "            min of 20 char per "word", 1 "word""
+echo -e "            using [:alnum:]"
 echo -e
 sleep 0.1
 echo -e "       5e. all lines that would make a good password"
 echo -e "            min of 4 char per word, 6 words"
 echo -e "            using [:alnum:] per word, separated by space"
+echo -e "            \033[4measiest to remember\033[24m"
 echo -e
 sleep 0.1
 echo -e "       6. Choose this to EXIT"
@@ -91,24 +92,24 @@ case $option in
         read -p "Pressing any key: back to menu"
     ;;
     5b )
-        echo 'Command: grep -wrinohIE "[[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "grep"'
+        echo 'Command: grep -wrinohIE "[[:alnum:][:punct:]]{6,12}[[:blank:]][[:alnum:][:punct:]]{6,12}[[:blank:]][[:alnum:][:punct:]]{6,12}[[:blank:]][[:alnum:][:punct:]]{6,12}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "grep"'
         echo
         echo "Output:"
-        grep -wriohIE "[[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "grep|-wrinohIE|-wriohIE"
+        grep -wriohIE "[[:alnum:][:punct:]]{6,12}[[:blank:]][[:alnum:][:punct:]]{6,12}[[:blank:]][[:alnum:][:punct:]]{6,12}[[:blank:]][[:alnum:][:punct:]]{6,12}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "grep|-wrinohIE|-wriohIE"
         read -p "Pressing any key: back to menu"
     ;;
     5c )
-        echo 'Command: grep -wrinohIE "[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode --color}'
+        echo 'Command: grep -wrinohIE "[[:graph:]]{4,12}\s[[:graph:]]{4,12}\s[[:graph:]]{4,12}\s[[:graph:]]{4,12}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode --color}'
         echo
         echo "Output:"
-        grep -wriohIE "[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color
+        grep -wriohIE "[[:graph:]]{4,12}\s[[:graph:]]{4,12}\s[[:graph:]]{4,12}\s[[:graph:]]{4,12}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color
         read -p "Pressing any key: back to menu"
     ;;
     5d )
-        echo 'Command: grep -wrinohIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color'
+        echo 'Command: grep -wriohIE "[[:alnum:]]{20,}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color'
         echo
         echo "Output:"
-        grep -wriohIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color
+        grep -wriohIE "[[:alnum:]]{20,}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color
         read -p "Pressing any key: back to menu"
     ;;
     5e )
