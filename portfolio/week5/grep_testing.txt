@@ -1,0 +1,35 @@
+grep -wirEI "echo | [[:alpha:]]{1,}" ./ --exclude-dir=.git --color=always | grep -v "/+"
+
+grep -wirEI "echo | [[:alpha:]]\{1,\} | [[:alpha:]]\{1,\} | [[:alpha:]]\{1,\} | [[^:alpha:]]" ./ --exclude-dir=.git --color
+
+grep -wrIE "^echo.*(([[:alpha:]]{1,})){3}" ./
+
+grep -wrinoE "^echo(\W+\w+){3,}" ./
+
+grep -wrIE "^echo.*([A-Za-z ][^0-9]).*([A-Za-z][^0-9]).*([A-Za-z][^0-9])" ./
+grep -wroIE "^echo.*([A-Za-z ][^0-9]).*([A-Za-z][^0-9]).*([A-Za-z][^0-9])" ./
+grep -wronIE "^echo.*([A-Za-z ]).*([A-Za-z]).*([A-Za-z])" ./
+
+grep -rE "^echo.*[[:alpha:]][[:space:]][[:alpha:]][[:space:]][[:alpha:]]"
+grep -wrEn "^echo.*[[:alpha:]]*[[:space:]][[:alpha:]]*[[:space:]][[:alpha:]]*"
+grep -wInEr "^echo.*([[:alpha:]]*){3,}" ./
+grep -wInEr "^echo.*\"(\w+).*(\w+).*(\w+)" ./
+grep -wInEr "^echo.*\"[[:alpha:]]{3,}" ./
+
+
+
+Password options
+A
+grep -winroIE "[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "echo"
+
+B
+grep -wrinoIE "[[:alnum:][:punct:]]{6,}[[:blank;]][[:alnum:][:punct:]]{6,}[[:blank;]][[:alnum:][:punct:]]{6,}[[:blank;]][[:alnum:][:punct:]]{6,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always
+
+C
+grep -wrinoIE "[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode}
+
+D
+grep -wrinoIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode}
+
+E
+grep -wrinoIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode}

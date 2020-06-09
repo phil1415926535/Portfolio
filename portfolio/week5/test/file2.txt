@@ -1,0 +1,491 @@
+/home/phiggs/student/scripts/portfolio/week3/megafoldermaker.sh:6:    echo "Error, provide three numbers only" && exit 1
+/home/phiggs/student/scripts/portfolio/week3/megafoldermaker.sh:9:echo "About to make the folder in portfolio directory: " 
+/home/phiggs/student/scripts/portfolio/week3/megafoldermaker.sh:13:    echo "week$nbr"
+/home/phiggs/student/scripts/portfolio/week3/megafoldermaker.sh:16:echo "Is this correct?: "
+/home/phiggs/student/scripts/portfolio/week3/megafoldermaker.sh:29:    echo "Creating directory number $i"
+/home/phiggs/student/scripts/portfolio/week3/megafoldermaker.sh:34:echo "Done"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:6:echo "This program makes a folder, then takes your password you enter and stores the hash in a file"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:7:echo "Do you want to view the directory tree to assist in making decision?"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:17:echo "Enter the name of the folder you want to create, not the path"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:21:echo "This will be created from your user directory, now enter path with initial / and end / "
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:28:    echo "Directory /home/$R1$folderPath$folderName exists already"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:36:    echo "FOLDER CREATED!"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:41:echo "What do you want to name the file - usual format is with *.txt extension"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:45:echo "Now create a secret password to save in created folder"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:49:echo "$password" | sha256sum > /home/$R1$folderPath$folderName/$fileName
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:51:echo "Do you want to log this"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:52:echo "Note: may affect usability of other programs"
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:57:    echo /home/$R1$folderPath$folderName/$fileName > /home/$R1$folderPath/pwdirlog.txt
+/home/phiggs/student/scripts/portfolio/week3/pwandfoldermaker.sh:61:echo "Do you want to open the folder in terminal now? Answer: y / n"
+/home/phiggs/student/scripts/portfolio/week3/downloader.sh:6:echo "Type URL to download or “exit” to quit :"
+/home/phiggs/student/scripts/portfolio/week3/downloader.sh:10:        echo "Goodbye!"
+/home/phiggs/student/scripts/portfolio/week3/downloader.sh:31:            echo "Goodbye!"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:4:echo -e "\e[33mThis is a simple calculator for TWO numbers\e[0m"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:23:echo -e "$YELLOW**************Enter Choice :**************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:24:echo -e "$BLUE********** 1. Addition        ************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:25:echo -e "$GREEN********** 2. Subtraction     ************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:26:echo -e "$RED********** 3. Multiplication  ************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:27:echo -e "$PURPLE********** 4. Division        ************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:28:echo -e "$YELLOW******************************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:37:        echo -e "$BLUE'$C1 $D1 _'$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:39:        echo "$C1$D1$C2" | bc -l > calc.txt
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:42:        echo -e "$BLUE********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:43:        echo -e "$BLUE     $C1 $D1 $C2 = $A1 $OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:44:        echo -e "$BLUE********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:49:        echo -e "$GREEN'$C1 $D2 _'$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:51:        echo "$C1$D2$C2" | bc -l > calc.txt
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:54:        echo -e "$GREEN********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:55:        echo -e "$GREEN     $C1 $D2 $C2 = $A1 $OFF" 
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:56:        echo -e "$GREEN********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:60:        echo -e "$RED'$C1 $D3 _'$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:62:        echo "$C1$D3$C2" | bc -l > calc.txt
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:65:        echo -e "$RED********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:66:        echo -e "$RED     $C1 $D3 $C2 = $A1 $OFF" 
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:67:        echo -e "$RED********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:71:        echo -e "$PURPLE'$C1 $D4 _'$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:73:        echo "$C1$D4$C2" | bc -l > calc.txt
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:76:        echo -e "$PURPLE********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:77:        echo -e "$PURPLE     $C1 $D4 $C2 = $A1 $OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:78:        echo -e "$PURPLE********************************$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:82:    *)  echo "Does Not Compute, Danger Will Robinson! Danger!"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:83:        echo -e "$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:84:        echo -e "$BLUE*O*$OFF $RED*V*$OFF $GREEN*E*$OFF $PURPLE*R*$OFF $YELLOW*L*$OFF $BLUE*O*$OFF $RED*A*$OFF $GREEN*D*$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:85:        echo -e "$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF$GREEN*$OFF$PURPLE*$OFF$YELLOW*$OFF$BLUE*$OFF$RED*$OFF"
+/home/phiggs/student/scripts/portfolio/week3/calculator.sh:97:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/folderCopier.sh:16:    echo "I couldn't find that folder"
+/home/phiggs/student/scripts/portfolio/week3/forFruitLoop.sh:5:echo "Method 1"
+/home/phiggs/student/scripts/portfolio/week3/forFruitLoop.sh:8:    echo "FRUIT: $fruit"
+/home/phiggs/student/scripts/portfolio/week3/forFruitLoop.sh:14:echo "Method 2 (from files)"
+/home/phiggs/student/scripts/portfolio/week3/forFruitLoop.sh:17:    echo "FRUIT: $(cat $OUTPUT)"
+/home/phiggs/student/scripts/portfolio/week3/filenames.sh:13:        echo "$line : That file exists"
+/home/phiggs/student/scripts/portfolio/week3/filenames.sh:16:        echo "$line : That's a directory"
+/home/phiggs/student/scripts/portfolio/week3/filenames.sh:18:        echo "$line : I don't know what that is"
+/home/phiggs/student/scripts/portfolio/week3/filenames.sh:33:        echo "$line : That file exists"
+/home/phiggs/student/scripts/portfolio/week3/filenames.sh:36:        echo "$line : That's a directory"
+/home/phiggs/student/scripts/portfolio/week3/filenames.sh:38:        echo "$line : I dont know what that is"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:38:echo -e "$YE$BO"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:40:echo -e "$O"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:46:        echo "Making Folder ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:48:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:51:        echo "Copying Folder ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:53:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:56:        echo "Changing password ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:58:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:61:        echo "Calculating ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:65:        echo "Creating Week Folders ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:66:        echo "Please enter 3 week numbers to make the folders"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:74:        echo "Checking Filenames  ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:79:        echo "Downloading a file ..."
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:81:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:84:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:88:    *)  echo "Please enter a valid number option in alpha or numeric input"
+/home/phiggs/student/scripts/portfolio/week3/megamenu.sh:93:echo "Back to menu"
+/home/phiggs/student/scripts/portfolio/week3/test/test.sh:9:            echo "Enter 3 numbers please: Goodbye"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:3:echo "*** `date '+%Y %b %d  %a  %T%p %Z'` ****" >> outlist.txt
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:4:echo "*** `date '+%d %b %Y  %a  %T%p %Z'` ****"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:9:echo $TIMESTAMP
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:15:echo $YYYYMMDD --- $TIME
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:20:echo .
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:23:echo -e "\e[33mHow many files in the Week3 directory??????\e[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:25:echo "???"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:27:echo "Doing the sums...."
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:29:echo "this is taking a while..."
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:31:echo "getting bored"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:33:echo "come on already"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:35:echo "are we there yet are we there yet are we there yet"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:37:echo "Finally; the number of files is: "
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:43:echo "Number of files from command history"
+/home/phiggs/student/scripts/portfolio/week3/test/snippets.sh:65:echo -e "* File outputfile.txt ${YELLOW}already patched${NORMAL} ${GREEN}[success]${NORMAL}\n"
+/home/phiggs/student/scripts/portfolio/week3/test/loopy.sh:6:  echo "$line"
+/home/phiggs/student/scripts/portfolio/week3/test/downloaderFOR.sh:4:echo "Hello"
+/home/phiggs/student/scripts/portfolio/week3/test/downloaderFOR.sh:8:echo $1
+/home/phiggs/student/scripts/portfolio/week3/test/downloaderFOR.sh:9:echo $#
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:4:echo -e "\e[33mPlease enter to how many numbers you would like to calculate\e[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:19:echo -e "\033[33m**************Enter Choice :**************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:20:echo -e "\033[34m**********1. Addition         ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:21:echo -e "\033[32m**********2. Subtraction      ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:22:echo -e "\033[31m**********3. Multiplication   ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:23:echo -e "\033[35m**********4. Division         ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:24:echo -e "\033[33m******************************************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:30:    echo -e "\033[33m$C1\033[0m $D1"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:34:    echo -e "\033[33m$C1\033[0m $D2"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:38:    echo -e "\033[33m$C1\033[0m $D3"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:42:    echo -e "\033[33m$C1\033[0m $D4"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:45:    *)  echo "Does Not Compute, Danger Will Robinson! Danger!"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:52:    echo -e "$D5$C2" 
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:58:    echo $C3 > calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:64:            echo "invalid entry: "
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:70:                    echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:76:    echo $F2 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:80:    echo $C4 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:86:            echo "invalid entry: "
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:92:                    echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:98:    echo $F3 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:102:    echo $C5 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:107:    echo $C6 > calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:113:            echo "invalid entry: "
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:119:                    echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:125:    echo $F4 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:129:    echo $C7 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:135:            echo "invalid entry: "
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:141:                    echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:147:    echo $F5 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:151:    echo $C8 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:157:            echo "invalid entry: "
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:163:                    echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:169:    echo $F6 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:173:    echo $C9 >> calc.txt
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:175:    * )  echo "Does not compute"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished2.sh:187:            echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/test/downloaderFORWHILE.sh:6:echo "Type URL to download or “exit” to quit :"
+/home/phiggs/student/scripts/portfolio/week3/test/downloaderFORWHILE.sh:10:        echo "Goodbye!"
+/home/phiggs/student/scripts/portfolio/week3/test/downloaderFORWHILE.sh:31:            echo "Goodbye!"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:4:echo -e "\e[33mThis is a simple calculator for TWO numbers\e[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:14:echo -e "\033[33m**************Enter Choice :**************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:15:echo -e "\033[34m********** 1. Addition        ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:16:echo -e "\033[32m********** 2. Subtraction     ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:17:echo -e "\033[31m********** 3. Multiplication  ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:18:echo -e "\033[35m********** 4. Division        ************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:19:echo -e "\033[33m******************************************\033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:27:    echo -e "$N1 $D1"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:31:    echo -e "$N1 $D2"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:35:    echo -e "$N1 $D3"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:39:    echo -e "$N1 $D4"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:42:    *)  echo "Does Not Compute, Danger Will Robinson! Danger!"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:43:        echo "Overload"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:44:        echo "********"
+/home/phiggs/student/scripts/portfolio/week3/test/calc-unfinished.sh:51:    echo -e "$R1$C2" 
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:14:echo -e "\033[31m Hello $USER , goodmorning and how are you feeling today? \033[0m"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:21:    echo "YAY !!! happy happy !!!"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:28:            echo # New line
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:31:    echo # New line
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:35:    echo "oh no, dont worry, things will improve!"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:38:    echo "go back to bed then"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:41:    echo "full of energy ready to start the day !!!"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:44:    echo "refreshed and no need for coffee!?!?! :P"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:47:    echo "go back to bed then"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:49:*)  echo "does not compute!!!"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:65:echo "$char" | sha256sum > file.txt
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:70:echo "Please wait while securely storing password..."
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:71:echo .
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:73:echo ..
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:75:echo ...
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:77:echo ....
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:79:echo .....
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:81:echo ......
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:83:echo ...................
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:85:echo .................
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:87:echo .................
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:89:echo .............................
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:90:echo "_*d O n E*_"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:95:echo $R1
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:97:echo "now hashing the hash for good measure"
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:98:echo "$R1" | sha256sum > file.txt
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:100:echo .
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:102:echo ..
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:103:echo -e 
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:109:echo $LASTARG
+/home/phiggs/student/scripts/portfolio/week3/test/colourTest.sh:114:echo $DIFF
+/home/phiggs/student/scripts/portfolio/week3/test/webdl.sh:5:echo "Type a URL to download or type “exit” to quit."
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:6:echo "Please enter a password for verification"
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:13:echo "$password" | sha256sum > ./secretpw/secretpw2.txt
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:23:# echo -n "$(cat secretpw/sha256.txt)" | sha256sum --check secretpw/secretpw.txt
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:27:# echo -n cat ./secretpw/sha256.txt | sha256sum -c  ./secretpw/secretpw2.txt
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:28:# echo "14bb4a88ca1378437689f64db055cd78488f4c01a103a3efc04bcbd639922b1b  ./secretpw/secretpw2.txt" | sha256sum --check
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:29:# echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:36:if ! echo -n "$(cat ./secretpw/sha3.txt) ./secretpw/secretpw.txt" | sha256sum -c --status -; 
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:39:    echo -e "\033[91m"
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:40:    echo -e "Access Denied"
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:41:    echo -e "\0033[0m"
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:46:    echo -e "\033[92m"
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:47:    echo -e "Access Granted"
+/home/phiggs/student/scripts/portfolio/week3/passwordCheck.sh:48:    echo -e "\0033[0m"
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:6:echo "This program makes a new folder with a name you specify"
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:7:echo "Do you want to view the directory tree to assist in making decision?"
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:17:echo "Enter the name of the folder you want to create, not the path"
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:21:echo "This will be created from your user directory, now enter path with initial / and end / "
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:28:    echo "Directory /home/$R1$folderPath$folderName exists already"
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:36:    echo "FOLDER CREATED!"
+/home/phiggs/student/scripts/portfolio/week3/folderMaker.sh:41:echo "Do you want to open the folder in terminal now? Answer: y / n"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:13:echo "Do you want to change your password to a new one?"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:14:echo "YES to continue, NO to go back to menu"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:23:        echo "No changes made"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:27:        echo "Invalid Entry"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:28:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:34:echo "Please create a new secret password to save"
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:38:echo "$password" | sha256sum > ./secretpw/secretpw.txt
+/home/phiggs/student/scripts/portfolio/week3/setPassword.sh:40:echo "Done"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:6:echo "This program makes a folder, then takes your password you enter and stores it in a file"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:7:echo "Enter the name of the folder you want to create, not the path"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:8:echo "After entering this the directory tree will display so you can identify path"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:17:echo "This will be created from your user directory, now enter path with initial / and end / "
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:25:echo "FOLDER CREATED! Is this correct? /home/$R1$path$name ???"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:26:echo "--> type: y (continue) / n (delete folder and exit)"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:38:echo "Please create a secret password to save in created folder"
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:42:echo "$password" | sha256sum >> /home/$R1$path$name/secretpw.txt
+/home/phiggs/student/scripts/portfolio/week3/secretpw.sh:45:echo "Do you want to open the folder in terminal now? Answer: y / n"
+/home/phiggs/student/scripts/portfolio/week4/gg.sh:5:    echo -e "\033[93mTry Again:\033[0m $1"
+/home/phiggs/student/scripts/portfolio/week4/gg.sh:28:#        echo $1 $2 $3 $4
+/home/phiggs/student/scripts/portfolio/week4/gg.sh:43:echo "Please try to guess a number between 1 and 100"
+/home/phiggs/student/scripts/portfolio/week4/gg.sh:45:echo "Correct!"
+/home/phiggs/student/scripts/portfolio/week4/GetNumbers.sh:6:    echo -e "\033[31mERROR:\033[0m $1"
+/home/phiggs/student/scripts/portfolio/week4/GetNumbers.sh:20:echo "This is the start of the script"
+/home/phiggs/student/scripts/portfolio/week4/GetNumbers.sh:22:echo "Thank you!"
+/home/phiggs/student/scripts/portfolio/week4/GetNumbers.sh:24:echo "Thank you!"
+/home/phiggs/student/scripts/portfolio/week4/GuessingGame.sh:5:    echo "           This is a guessing game"
+/home/phiggs/student/scripts/portfolio/week4/GuessingGame.sh:6:    echo "Guess the chosen number which is between 1 and 100"
+/home/phiggs/student/scripts/portfolio/week4/GuessingGame.sh:19:            echo "Too High!"
+/home/phiggs/student/scripts/portfolio/week4/GuessingGame.sh:24:            echo "Too Low!"
+/home/phiggs/student/scripts/portfolio/week4/GuessingGame.sh:34:            echo "ERROR: Input must be between 1 and 100"
+/home/phiggs/student/scripts/portfolio/week4/GuessingGame.sh:40:    echo "Correct! Good Guessing!"
+/home/phiggs/student/scripts/portfolio/week4/ip_info.sh:11:echo -e "The IP addresses on this computer are:\n$addresses"
+/home/phiggs/student/scripts/portfolio/week4/test/function.sh:5:    echo -e "\033[31mERROR:\033[0m $1"
+/home/phiggs/student/scripts/portfolio/week4/test/GetNumbers.sh:5:    echo -e "\033[31mERROR:\033[0m $1"
+/home/phiggs/student/scripts/portfolio/week4/test/GetNumbers.sh:19:echo "This is the start of the script"
+/home/phiggs/student/scripts/portfolio/week4/test/GetNumbers.sh:21:echo "Thank you!"
+/home/phiggs/student/scripts/portfolio/week4/test/GetNumbers.sh:23:echo "Thank you!"
+/home/phiggs/student/scripts/portfolio/week4/test/retvar.sh:20:echo "Var1 = " $Var1
+/home/phiggs/student/scripts/portfolio/week4/test/retvar.sh:21:echo "Var2 = " $Var2
+/home/phiggs/student/scripts/portfolio/week4/test/retvar.sh:25:echo "Can we see the local variable?" $Ret
+/home/phiggs/student/scripts/portfolio/week4/test/retvar.sh:26:echo "Var3 =" $Var3
+/home/phiggs/student/scripts/portfolio/week4/IpAddressesOnly.sh:10:echo -e "\033[93m$addresses\033[0m"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:6:echo "This program makes a folder, then takes your password you enter and stores the hash in a file"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:7:echo "Do you want to view the directory tree to assist in making decision?"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:17:echo "Enter the name of the folder you want to create, not the path"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:21:echo "This will be created from your user directory, now enter path with initial / and end / "
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:28:    echo "Directory /home/$R1$folderPath$folderName exists already"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:36:    echo "FOLDER CREATED!"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:41:echo "What do you want to name the file - usual format is with *.txt extension"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:45:echo "Now create a secret password to save in created folder"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:49:echo "$password" | sha256sum > /home/$R1$folderPath$folderName/$fileName
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:51:echo "Do you want to log this"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:52:echo "Note: may affect usability of other programs"
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:57:    echo /home/$R1$folderPath$folderName/$fileName > /home/$R1$folderPath/pwdirlog.txt
+/home/phiggs/student/scripts/portfolio/week2/pwandfoldermaker.sh:61:echo "Do you want to open the folder in terminal now? Answer: y / n"
+/home/phiggs/student/scripts/portfolio/week2/folderCopier.sh:16:    echo "I couldn't find that folder"
+/home/phiggs/student/scripts/portfolio/week2/errors.sh:14:    echo "You got it right!"
+/home/phiggs/student/scripts/portfolio/week2/errors.sh:19:    echo "You got it wrong :("
+/home/phiggs/student/scripts/portfolio/week2/errors.sh:27:    echo -e "You have unlocked the secret menu!"
+/home/phiggs/student/scripts/portfolio/week2/errors.sh:32:    echo "Go Away!"
+/home/phiggs/student/scripts/portfolio/week2/test/errors-cowsay.sh:7:echo "You need to install cowsay to view this properly, if you already have cowsay installed you can type 'n'"
+/home/phiggs/student/scripts/portfolio/week2/test/errors-cowsay.sh:22:    echo "You got it right!"
+/home/phiggs/student/scripts/portfolio/week2/test/errors-cowsay.sh:27:    echo "You got it wrong :("
+/home/phiggs/student/scripts/portfolio/week2/test/errors-cowsay.sh:35:    echo -e "You have unlocked the secret menu! \n You will still need your password as well" | cowsay
+/home/phiggs/student/scripts/portfolio/week2/test/errors-cowsay.sh:41:    echo "Go Away!" | cowsay -f dragon
+/home/phiggs/student/scripts/portfolio/week2/test/cl.sh:8:    echo "Number is equal to 100"
+/home/phiggs/student/scripts/portfolio/week2/test/cl.sh:11:    echo "Number is equal to 19"
+/home/phiggs/student/scripts/portfolio/week2/test/cl.sh:13:    echo "Number is not equal to 19 or 100" 
+/home/phiggs/student/scripts/portfolio/week2/test/coolname.sh:3:echo "please enter your name"
+/home/phiggs/student/scripts/portfolio/week2/test/coolname.sh:7:    echo "Rob is a very cool name"
+/home/phiggs/student/scripts/portfolio/week2/test/coolname.sh:9:    echo "Hi $name"
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:10: echo "enter the password"
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:14:     echo "$password" | grep -q [0-9]
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:16:     echo "$password" | grep -q [A-Z]
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:18:     echo "$password" | grep -q [a-z]
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:20:     echo "$password" | grep -q [$,@,#,%]
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:22:     echo "Strong password"
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:24:         echo "weak password include special chars"
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:27:     echo "weak password include lower case char"
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:30:     echo "weak password include capital char" 
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:33:     echo "please include the numbers in password it is weak password" 
+/home/phiggs/student/scripts/portfolio/week2/test/whatitdoes.sh:36: echo "password length should be greater than or equal 8 hence weak password"
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh:15:        echo "UV Level LOW : Minimal Protection Required."
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh:20:        echo "UV Level MODERATE: Standard protection required."
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh:25:        echo "UV Level EXTREME : Maximum Protection Required"
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh:29:        echo "The number you have entered is outside of the UV index range of numbers"
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh:33:echo "Try again with a number within range?" | cowsay -f dragon
+/home/phiggs/student/scripts/portfolio/week2/test/uv.sh:42:    echo "Bye!"
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:4:echo "Please enter a password for verification"
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:11:echo "$password" | sha256sum > ~/student/scripts/portfolio/week2/secretpw/secretpw2.txt
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:24:# echo -n "$(cat secretpw/sha256.txt)" | sha256sum --check secretpw/secretpw.txt
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:28:# echo -n cat ./secretpw/sha256.txt | sha256sum -c  ./secretpw/secretpw2.txt
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:29:# echo "14bb4a88ca1378437689f64db055cd78488f4c01a103a3efc04bcbd639922b1b  ./secretpw/secretpw2.txt" | sha256sum --check
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:30:# echo -n "$(cat ./secretpw/sha2.txt)" | sha256sum -c
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:36:if ! echo -n "$(cat ./secretpw/sha3.txt) ./secretpw/secretpw.txt" | sha256sum -c --status -; 
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:39:    echo "Access Denied" >&1
+/home/phiggs/student/scripts/portfolio/week2/passwordCheck.sh:44:    echo "Access Granted" >&1
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:6:echo "This program makes a new folder with a name you specify"
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:7:echo "Do you want to view the directory tree to assist in making decision?"
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:17:echo "Enter the name of the folder you want to create, not the path"
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:21:echo "This will be created from your user directory, now enter path with initial / and end / "
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:28:    echo "Directory /home/$R1$folderPath$folderName exists already"
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:36:    echo "FOLDER CREATED!"
+/home/phiggs/student/scripts/portfolio/week2/folderMaker.sh:41:echo "Do you want to open the folder in terminal now? Answer: y / n"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:44:echo "     *********Menu*********"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:45:echo "     * Select an Option   *"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:46:echo "     * 1. Create a folder *"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:47:echo "     * 2. Copy a folder   *"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:48:echo "     * 3. Set a password  *"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:49:echo "     * 4. Exit            *"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:50:echo "     **********************"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:58:        echo "Making Folder ..."
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:60:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:63:        echo "Copying Folder ..."
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:65:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:68:        echo "Changing password ..."
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:70:        echo "Done"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:73:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:77:    *)  echo "Invalid Option"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:78:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:84:echo 
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:95:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:98:    *)  echo "Invalid option entered"
+/home/phiggs/student/scripts/portfolio/week2/menu.sh:99:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:15:echo "Do you want to change your password to a new one?"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:16:echo "YES to continue, NO to go back to menu"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:25:        echo "No changes made"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:29:        echo "Invalid Entry"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:30:        echo "Bye"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:36:echo "Please create a new secret password to save"
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:40:echo "$password" | sha256sum > $R1
+/home/phiggs/student/scripts/portfolio/week2/setPassword.sh:42:echo "Done"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:7:echo -e "\033[93;1;42m"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:8:echo -e "------*Using grep to search for statements*------"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:9:echo -e ""
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:11:echo -e "             ------*M*E*N*U*------\033[0m\033[42m"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:13:echo -e "       1. all sed statements"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:14:echo -e  
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:16:echo -e "       2. all lines that start with the letter 'm'"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:17:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:19:echo -e "       3. all lines that contain three digit numbers"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:20:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:22:echo -e "       4. all echo statements with at least three words"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:23:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:25:echo -e "       5a. all lines that would make a good password"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:26:echo -e "            min of 2 char per word, 6 words"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:27:echo -e "            using [:graph:] per word, separated by space"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:28:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:30:echo -e "       5b. all lines that would make a good password"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:31:echo -e "            min of 6 char per word, 4 words"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:32:echo -e "            using [:alnum:][:punct:] per word, separated by space"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:33:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:35:echo -e "       5c. all lines that would make a good password"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:36:echo -e "            min of 4 char per word, 4 words"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:37:echo -e "            using [:graph:] per word, separated by space"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:38:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:40:echo -e "       5d. all lines that would make a good password"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:41:echo -e "            min of 4 char per word, 4 words"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:42:echo -e "            using [:alnum:] per word, separated by space"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:43:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:45:echo -e "       5e. all lines that would make a good password"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:46:echo -e "            min of 4 char per word, 6 words"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:47:echo -e "            using [:alnum:] per word, separated by space"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:48:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:50:echo -e "       6. Choose this to EXIT"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:52:echo -e
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:54:echo -e "\033[0m"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:58:        echo "Command: grep -wir "sed" ~/student/scripts/portfolio --exclude-dir=.git --color"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:60:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:66:        echo "Command: grep -riI "^m" ~/student/scripts/portfolio --exclude-dir=.git --color"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:68:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:73:        echo "Command: grep -rIE "[^0-9][0-9][0-9][0-9][^0-9]" ~/student/scripts/portfolio --exclude-dir=.git --exclude-dir=.vscode --color"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:75:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:80:        echo "Command: grep -wrEn "^echo.*[[:alpha:]]*[[:space:]][[:alpha:]]*[[:space:]][[:alpha:]]*" ~/student/scripts/portfolio --exclude-dir=.git --color"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:82:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:87:        echo 'Command: grep -winrohIE "[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "echo"'
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:89:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:94:        echo 'Command: grep -wrinohIE "[[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}[[:blank:]][[:alnum:][:punct:]]{6,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "grep"'
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:96:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:101:        echo 'Command: grep -wrinohIE "[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s[[:graph:]]{4,}\s" ~/student/scripts/portfolio --exclude-dir={.git,.vscode --color}'
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:103:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:108:        echo 'Command: grep -wrinohIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color'
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:110:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:115:        echo 'Command: grep -wrinohIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color'
+/home/phiggs/student/scripts/portfolio/week5/regexes.sh:117:        echo "Output:"
+/home/phiggs/student/scripts/portfolio/week1/first.sh:2:echo "Hello There how are you?"
+/home/phiggs/student/scripts/portfolio/week1/first.sh:3:echo "Hi my name is Phil"
+/home/phiggs/student/scripts/portfolio/week1/second.sh:2: echo "Hi there!"
+/home/phiggs/student/scripts/portfolio/week1/second.sh:3: echo "It's good to see you $1!"
+/home/phiggs/student/scripts/portfolio/week1/nano.sh:2:echo "hello there"
+/home/phiggs/student/scripts/portfolio/week1/vimExample.sh:3:echo "hello from the old VIMmy"
+/home/phiggs/student/scripts/portfolio/week1/test/testing2.sh:2:echo "Thank you again sir $MESSAGE"
+/home/phiggs/student/scripts/portfolio/week1/test/mail.sh:2:echo -e "\033[91mNote:\033[0m You should first configure your mail server to use this script, \nSo if you didn't that the script will not work!\n"
+/home/phiggs/student/scripts/portfolio/week1/test/colourfuldate.sh:5:	echo "Colorful Date :)" | toilet -f mini --gay
+/home/phiggs/student/scripts/portfolio/week1/test/colourfuldate.sh:8:	  echo "$(date '+%D %T' | toilet -f term -F border --gay)"
+/home/phiggs/student/scripts/portfolio/week1/test/colourfuldate.sh:12:	echo "Please install toilet: sudo apt-get install toilet"
+/home/phiggs/student/scripts/portfolio/week1/test/testing.sh:3:echo "Hello and please enter a word or number:"
+/home/phiggs/student/scripts/portfolio/week1/test/testing.sh:7:echo "Thank you for that, nothing more, bye now"
+/home/phiggs/student/scripts/portfolio/week1/test/scriptinput.sh:7:echo $@
+/home/phiggs/student/scripts/portfolio/week1/test/scriptinput.sh:9:echo $#
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:11:    echo "Error: to use this tool openssl must be installed" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:20:  httpGet github.com > /dev/null 2>&1 || { echo "Error: no active internet connection" >&2; return 1; } # query github with a get request
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:35:    echo "Error: This tool requires either curl, wget, httpie or fetch to be installed." >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:54:  echo "Encrypting $1..."
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:55:  openssl enc -aes-256-cbc -salt -a -in $1 -out $2 || { echo "File not found"; return 1; }
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:56:  echo "Successfully encrypted"
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:62:  echo "Decrypting $1..."
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:63:  openssl enc -aes-256-cbc -d -a -in $1 -out $2 || { echo "File not found"; return 1; }
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:64:  echo "Successfully decrypted"
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:78:    echo "Error: update utility has not been configured correctly." >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:81:    echo "Error: no active internet connection" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:85:      echo "Version $latestVersion available"
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:86:      echo -n "Do you wish to update $repositoryName [Y/n]: "
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:89:        cd ~ || { echo 'Update Failed'; exit 1; }
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:90:        if [[ -d  ~/$repositoryName ]]; then rm -r -f $repositoryName || { echo "Permissions Error: try running the update as sudo"; exit 1; } ; fi
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:91:        echo -n "Downloading latest version of: $repositoryName."
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:92:        git clone -q "https://github.com/$githubUserName/$repositoryName" && touch .BSnippetsHiddenFile || { echo "Failure!"; exit 1; } &
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:93:        while [ ! -f .BSnippetsHiddenFile ]; do { echo -n "."; sleep 2; };done
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:95:        echo "Success!"
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:96:        cd $repositoryName || { echo 'Update Failed'; exit 1; }
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:97:        git checkout "v$latestVersion" 2> /dev/null || git checkout "$latestVersion" 2> /dev/null || echo "Couldn't git checkout to stable release, updating to latest commit."
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:101:        rm -r -f $repositoryName || { echo "Permissions Error: update succesfull but cannot delete temp files located at ~/$repositoryName delete this directory with sudo"; exit 1; }
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:106:      echo "$repositoryName is already the latest version"
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:137:          echo "Error: the -d and -e options are mutally exclusive" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:141:          echo "Option -e needs and only accepts two arguments [file to encrypt] [output file]" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:145:    \?) echo "Invalid option: -$OPTARG" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:152:          echo "Error: the -e and -d options are mutally exclusive" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:156:          echo "Option -d needs and only accepts two arguments [file to decrypt] [output file]" >&2
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:168:    v)  echo "Version $currentVersion"
+/home/phiggs/student/scripts/portfolio/week1/test/encrypt.sh:172:        echo "Option -$OPTARG requires an argument." >&2
+/home/phiggs/student/scripts/portfolio/week1/test/helloworld.sh:3:echo $STR | cowsay
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:9:echo "Please type in your name:" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:11:echo "Hello and welcome to you $name" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:12:echo "I'm Mrs Cow and I'm happy to meet you $name" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:13:echo "I hope we can be friends - I like to say a lot of things such as $R1$R2" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:15:echo "Please tell me what is your favourite food, by typing it below" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:19:        echo "This is not possible, you are a silly billy! $R1 $R2 - Come back when you tell me the truth !!!!" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:20:        echo "Roarrrrrrrrrrrrrr I'm feeling hungry" | $R4 -f dragon
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:24:echo "Oh! You like to eat $food, I like to eat $food too $R1" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:26:echo "So $name what is your favourite game to play?" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:30:        echo "This is not possible, you are thinking that I am stupid - SAY HI TO MY FRIEND THE DRAGON!!!" | $R3 
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:31:        echo "I am going to breathe fire on you!!!" | $R4 -f dragon
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:34:echo "Thats nice, you must really enjoy $game" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:36:echo "Do you think I would like $game? please answer yes or no" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:40:    echo "Great - lets go and play $game now $name" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:42:    echo "Well I have to go now, need to $R1 on some $food while you play your $game game!" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:45:echo "HAVE A NICE DAY $name !!!" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/read.sh:46:echo "Any friend of Mrs Cow is a friend of mine too - Have a good day my friend" | $R5 --cow-size small
+/home/phiggs/student/scripts/portfolio/week1/test/game/installcs.sh:4:echo "Do you want to install cowsay and xcowsay to run the game? yes or no"
+/home/phiggs/student/scripts/portfolio/week1/test/game/installcs.sh:22:echo 
+/home/phiggs/student/scripts/portfolio/week1/test/game/installcs.sh:25:echo "Do you want to start the game now? yes or no"
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:9:echo "Please type in your name:" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:11:echo "Hello and welcome to you $name" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:12:echo "I'm Mrs Cow and I'm happy to meet you $name" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:13:echo "I hope we can be friends - I like to say a lot of things such as $R1$R2" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:15:echo "Please tell me what is your favourite food, by typing it below" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:19:        echo "This is not possible, you are a silly billy! $R1 $R2 - Come back when you tell me the truth !!!!" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:20:        echo "Roarrrrrrrrrrrrrr I'm feeling hungry" | $R4 -f dragon
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:24:echo "Oh! You like to eat $food, I like to eat $food too $R1" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:26:echo "So $name what is your favourite game to play?" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:30:        echo "This is not possible, you are thinking that I am stupid - SAY HI TO MY FRIEND THE DRAGON!!!" | $R3 
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:31:        echo "I am going to breathe fire on you!!!" | $R4 -f dragon
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:34:echo "Thats nice, you must really enjoy $game" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:36:echo "Do you think I would like $game? please answer yes or no" | $R4
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:40:    echo "Great - lets go and play $game now $name" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:42:    echo "Well I have to go now, need to $R1 on some $food while you play your $game game!" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:45:echo "HAVE A NICE DAY $name !!!" | $R3
+/home/phiggs/student/scripts/portfolio/week1/test/game/read.sh:46:echo "Any friend of Mrs Cow is a friend of mine too - Have a good day my friend" | $R5 --cow-size small
+/home/phiggs/student/scripts/portfolio/week1/test/while.sh:5:    echo "The counter is $COUNTER"
+/home/phiggs/student/scripts/portfolio/week1/test/whilestdin.sh:5:    echo "$line"
+/home/phiggs/student/scripts/portfolio/week1/test/until.sh:5:    echo $COUNTER
+/home/phiggs/student/scripts/portfolio/week1/test/forcontinue.sh:10:echo $i
+/home/phiggs/student/scripts/portfolio/week1/test/domains.sh:7:	echo "Usage: $0 test.com example.com ..."
+/home/phiggs/student/scripts/portfolio/week1/test/domains.sh:14:	[ "$ip" == "" ] && { echo "Error: An error occurred!"; continue; }
+/home/phiggs/student/scripts/portfolio/week1/test/domains.sh:15:	echo -e "\033[93mGetting information about domain: $d [ $ip ] \033[0m"
+/home/phiggs/student/scripts/portfolio/week1/test/domains.sh:17:	echo ""
+/home/phiggs/student/scripts/portfolio/week1/test/zipbackup.sh:20:echo "Backing up $backup_files to $dest/$archive_file"
+/home/phiggs/student/scripts/portfolio/week1/test/zipbackup.sh:29:echo "Backup finished"
+/home/phiggs/student/scripts/portfolio/week1/test/forloop.sh:10:echo $i
+/home/phiggs/student/scripts/portfolio/week1/test/pbwf.sh:8:    echo $P1$P2
+/home/phiggs/student/scripts/portfolio/week1/test/pbwf.sh:10:    echo $P1-$P2-$P3-$P4
+/home/phiggs/student/scripts/portfolio/week1/emacsExample.sh:3:echo "Hello from cowsay!"
