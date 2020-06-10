@@ -37,14 +37,10 @@ errors()
 
 outtro()
 {
-    echo "Correct! Good Guessing!"
+    echo "Right! Good Guessing!"
     exit 0
 }
-
-
 
 intro
 getNumber "Guess" 42 1 100
 outtro
-
-
