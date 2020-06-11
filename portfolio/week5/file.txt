@@ -1,0 +1,2 @@
+root:x:0:0:root:/root:/bin/bash
+phiggs:x:1000:1000:phiggs,,,:/home/phiggs:/bin/bash
