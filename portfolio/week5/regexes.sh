@@ -78,11 +78,10 @@ case $option in
         read -p "Pressing any key: back to menu"
     ;;
     4 )
-        echo "Command: grep -wrEnI "^echo\s|[[:blank:]]{1,}echo\s" ~/student/scripts/portfolio --exclude-dir=.git --color | grep -E "[^echo]\".(\w+\s){3,}"
+        echo "Command: grep -wrEI "[[:blank:]]*echo.+\w+.?\s\w+.?\s\w+.?" ~/student/scripts/portfolio --color=always --exclude-dir={.git,.vscode}"
         echo
         echo "Output:"
-        grep -wrEnI "^echo\s|[[:blank:]]{1,}echo\s" ~/student/scripts/portfolio --exclude-dir=.git --color | grep -E "[^echo]\".(\w+\s){3,}" # finds all echo statements in files
-        grep -wrEnI "^echo\s.*(\w+\s){3,} | [[:blank:]]{1,}echo\s.*(\w+\s){3,}" ~/student/scripts/portfolio
+        grep -wrEI "[[:blank:]]*echo.+\w+.?\s\w+.?\s\w+.?" ~/student/scripts/portfolio --color=always --exclude-dir={.git,.vscode}
         read -p "Pressing any key: back to menu"
     ;;
     5a )

@@ -1,24 +1,47 @@
-grep -wirEI "echo | [[:alpha:]]{1,}" ./ --exclude-dir=.git --color=always | grep -v "/+"
+ECHO STATEMENT AND THREE WORDS TRYOUT's
 
-grep -wirEI "echo | [[:alpha:]]\{1,\} | [[:alpha:]]\{1,\} | [[:alpha:]]\{1,\} | [[^:alpha:]]" ./ --exclude-dir=.git --color
+
+grep -wrinoE "echo.*\w+\s\w+\s\w+" ~/student/scripts/portfolio
 
 grep -wrIE "^echo.*(([[:alpha:]]{1,})){3}" ./
 
-grep -wrinoE "^echo(\W+\w+){3,}" ./
+grep -wrIE "^echo.*([A-Za-z ][^0-9]).*([A-Za-z][^0-9]).*([A-Za-z][^0-9])" ./
 
 grep -wrIE "^echo.*([A-Za-z ][^0-9]).*([A-Za-z][^0-9]).*([A-Za-z][^0-9])" ./
-grep -wroIE "^echo.*([A-Za-z ][^0-9]).*([A-Za-z][^0-9]).*([A-Za-z][^0-9])" ./
-grep -wronIE "^echo.*([A-Za-z ]).*([A-Za-z]).*([A-Za-z])" ./
+
+grep -wrnIE "^echo.*([A-Za-z ]).*([A-Za-z]).*([A-Za-z])" ./
+
+grep -wrIE "echo.*[[:alpha:]*\s].[[:alpha:]*\s].*[[:alpha:]*]" ~/student/scripts/portfolio
 
 grep -rE "^echo.*[[:alpha:]][[:space:]][[:alpha:]][[:space:]][[:alpha:]]"
+
 grep -wrEn "^echo.*[[:alpha:]]*[[:space:]][[:alpha:]]*[[:space:]][[:alpha:]]*"
+
 grep -wInEr "^echo.*([[:alpha:]]*){3,}" ./
-grep -wInEr "^echo.*\"(\w+).*(\w+).*(\w+)" ./
-grep -wInEr "^echo.*\"[[:alpha:]]{3,}" ./
+
+grep -wInEr "[[:blank:]]echo.*\"(\w+).*(\w+).*(\w+)" ~/student/scripts/portfolio  #doesnt include lines where echo is part of something else or echo -e etc
+
+grep -wInEr "[[:blank:]]echo.*\"[[:alpha:]]+.[[:alpha:]]+[[:alpha:]]" ~/student/scripts/portfolio
+
+grep -wrEI "[[:blank:]]*echo\s\-?.?\s?" ~/student/scripts/portfolio --color=always | grep -E "\w+\s\w+\s\w+"
+
+grep -wInEr "[[:blank:]]echo.*\"[[:alpha:]]+\s[[:alpha:]]+\s[[:alpha:]]+.?" ~/student/scripts/portfolio
+
+grep -wrEI "[[:blank:]]*echo.+" ~/student/scripts/portfolio --color=always | grep -E "\w+\s\w+\s\w+"
+
+
+grep -wrEnI "^echo\s.*(\w+\s){3,} | [[:blank:]]{1,}echo\s.*(\w+\s){3,}" ~/student/scripts/portfolio
+
+grep -wrEnI "^echo\s|[[:blank:]]{1,}echo\s" ~/student/scripts/portfolio --exclude-dir=.git --color | grep -E "[^echo]\".(\w+\s){3,}
+
+
+AND... THE WINNER IS...
+grep -wrEI "[[:blank:]]*echo.+\w+.?\s\w+.?\s\w+.?" ~/student/scripts/portfolio --color=always --exclude-dir={.git,.vscode}
 
 
 
-Password options
+PASSWORD OPTIONS
+
 A
 grep -winroIE "[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}\s[[:graph:]]{2,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode} --color=always | grep -v "echo"
 
@@ -33,3 +56,4 @@ grep -wrinoIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,
 
 E
 grep -wrinoIE "[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}\s[[:alnum:]]{4,}" ~/student/scripts/portfolio --exclude-dir={.git,.vscode}
+
