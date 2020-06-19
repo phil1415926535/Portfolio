@@ -7,6 +7,7 @@
 
 # What to backup. 
 backup_files="/home/phiggs/student"
+backup_files2="/media/phiggs/backup"
 
 # Where to backup to.
 dest="/media/sf_vmshared"
@@ -22,7 +23,7 @@ date
 echo
 
 # Backup the files using tar.
-sudo tar czf $dest/$archive_file $backup_files
+sudo tar czf $dest/$archive_file $backup_files $backup_files2
 
 # Print end status message.
 echo

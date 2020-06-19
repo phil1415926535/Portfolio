@@ -1,7 +1,8 @@
 # Variables
-loc="../data_files"
-dl_loc_txt="https://cve.mitre.org/data/downloads/allitems.txt"
-dl_loc_csv="https://cve.mitre.org/data/downloads/allitems.csv"
+loc="./data_files"
+#dl_loc_txt="https://cve.mitre.org/data/downloads/allitems.txt"
+#dl_loc_csv="https://cve.mitre.org/data/downloads/allitems.csv"
+dl_loc_html="https://cve.mitre.org/data/downloads/allitems.html"
 
 # Options list
 option_func()
@@ -34,7 +35,7 @@ option_func()
                 ;;
                 esac
             fi
-
+        fi
         sleep 1
 
     echo "Verification of up to date files and downloading if required"
@@ -43,12 +44,16 @@ option_func()
     # -S if file doesnt exist downloads initial version
     # -N checks file version of existing file and checks for newer version and only downloads if newer version exists
     echo -e "\033[32;100;1m"
-    wget -c -SN --output-file=$loc/log_txt.txt --show-progress --progress=bar -P $loc $dl_loc_txt
+#    wget -c -SN --output-file=$loc/log_txt.txt --show-progress --progress=bar -P $loc $dl_loc_txt
     # downloads csv file full list of CVE items
-    wget -c -SN --output-file=$loc/log_csv.txt --show-progress --progress=bar -P $loc $dl_loc_csv
+#    wget -c -SN --output-file=$loc/log_csv.txt --show-progress --progress=bar -P $loc $dl_loc_csv
+    # downloads html version
+    # downloads csv file full list of CVE items
+    wget -c -SN --output-file=$loc/log_html.txt --show-progress --progress=bar -P $loc $dl_loc_html
+    echo -e "DONE!"
     echo -e "$off"
 
-        fi
+
     
     elif [[ $1 == 2 || $1 == "two" ]];
     then
