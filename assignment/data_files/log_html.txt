@@ -1,9 +1,9 @@
---2020-06-19 03:00:36--  https://cve.mitre.org/data/downloads/allitems.html
+--2020-06-19 14:41:32--  https://cve.mitre.org/data/downloads/allitems.html
 Resolving cve.mitre.org (cve.mitre.org)... 198.49.146.233, 192.52.194.135
 Connecting to cve.mitre.org (cve.mitre.org)|198.49.146.233|:443... connected.
 HTTP request sent, awaiting response... 
   HTTP/1.1 200 OK
-  Date: Thu, 18 Jun 2020 19:00:15 GMT
+  Date: Fri, 19 Jun 2020 06:41:12 GMT
   Server: Apache
   Strict-Transport-Security: max-age=15768000; includeSubDomains
   X-Frame-Options: SAMEORIGIN
@@ -18,5 +18,5 @@ Saving to: './data_files/allitems.html’
 
 
 Last-modified header missing -- time-stamps turned off.
-2020-06-19 03:01:18 (3.81 MB/s) - './data_files/allitems.html’ saved [162549821]
+2020-06-19 14:42:19 (3.41 MB/s) - './data_files/allitems.html’ saved [162625711]
 
