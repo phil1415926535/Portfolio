@@ -4,7 +4,6 @@
 while true
 do
 # Menu system to choose option of which grep to run on my work
-<<<<<<< HEAD
 clear
 echo -e "\033[93;1;42m"
 echo -e "------------------------------------------------------------------"
@@ -56,55 +55,9 @@ sleep 0.1
 echo -e "       6. Choose this to EXIT                                     "
 sleep 0.1
 echo -e "------------------------------------------------------------------"
-=======
 echo -e "\033[93;1;42m"
-echo -e "------*Using grep to search for statements*------"
-echo -e ""
-sleep 0.1
-echo -e "             ------*M*E*N*U*------\033[0m\033[42m"
-sleep 0.1
-echo -e "       1. all sed statements"
-echo -e  
-sleep 0.1
-echo -e "       2. all lines that start with the letter 'm'"
-echo -e
-sleep 0.1
-echo -e "       3. all lines that contain three digit numbers"
-echo -e
-sleep 0.1
-echo -e "       4. all echo statements with at least three words"
-echo -e
-sleep 0.1
-echo -e "       5a. all lines that would make a good password"
-echo -e "            min of 2 char per word, 6 words"
-echo -e "            using [:graph:] per word, separated by space"
-echo -e
-sleep 0.1
-echo -e "       5b. all lines that would make a good password"
-echo -e "            min of 6 char per word, 4 words"
-echo -e "            using [:alnum:][:punct:] per word, separated by space"
-echo -e
-sleep 0.1
-echo -e "       5c. all lines that would make a good password"
-echo -e "            min of 4 char per word, 4 words"
-echo -e "            using [:graph:] per word, separated by space"
-echo -e
-sleep 0.1
-echo -e "       5d. all lines that would make a good password"
-echo -e "            min of 20 char per "word", 1 "word""
-echo -e "            using [:alnum:]"
-echo -e
-sleep 0.1
-echo -e "       5e. all lines that would make a good password"
-echo -e "            min of 4 char per word, 6 words"
-echo -e "            using [:alnum:] per word, separated by space"
-echo -e "            \033[4measiest to remember\033[24m"
-echo -e
-sleep 0.1
-echo -e "       6. Choose this to EXIT"
-sleep 0.1
-echo -e
->>>>>>> 8753509d0573ab3db69e9c8b53b94fca3e44d8d4
+
+
 read -p "Choose an option: " option
 echo -e "\033[0m"
 
