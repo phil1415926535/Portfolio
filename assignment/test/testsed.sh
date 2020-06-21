@@ -123,7 +123,7 @@ https://www.gnu.org/software/sed/manual/sed.html
 #### ---> Best thing ever - discovered something new
 sed -E -e ':a $!N;s/\n(Description:|Status:|Phase:)/ ,/;ta P;D' 1999.txt
 # Reference for below line sed ':a $!N;s/\ndesc/ desc/;ta P;D' "https://stackoverflow.com/questions/17021770/move-line-which-matches-pattern-to-previous-line" move line which matches pattern to previous line
-# Had already experimented with  **sed '/^/!N;s/\n//'** and was going to use multiples of this until came across this one
+# Had already experimented with  **sed '/^/!N;s/\n//'** and was going to use multiples of this until came across this one, but was rather messy
 # sed -Ee '/./s/ \| /,/' line is adapted from https://www.gnu.org/software/sed/manual/sed.html#Text-search-across-multiple-lines (Section 6.3 Multiline techniques - using D,G,H,N,P to process multiple lines ***sed '/./{H;$!d} ; x ; s/REGEXP/REPLACEMENT/'***)
 sed 's/Reference:/ \| /' 1999.txt | sed -E -e ':a $!N;s/\n(Description:|Status:|Phase:)/,/;ta P;D'
 sed 's/Reference:/ \| /' 1999.txt | sed -E -e ':a $!N;s/\n(Description:|Status:|Phase:)/,/;ta P;D' | sed -Ee ':a $!N;s/\n \| / \| /;ta P;D'
